@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "Aquire";
+    src: url("./AquireBold-8Ma60.otf");
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.Navbar {
+  height: 8vh;
+  background-color: rgb(0, 0, 42);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: space-between; */
+}
+
+#modal-con {
+  /* width: 100%; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  color: whitesmoke;
+  height: 40vh;
+  background-color: black;
+  overflow: hidden;
+  width: 0vw;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 0px 0px 10px black;
+  border-color: black;
+  box-shadow: 0px 0px 4vw rgba(0, 0, 0, 0.974);
+  transition: all 0.1s ease;
+  border-radius: 2vw;
+}
+
+#title {
+  display: flex;
+  flex-direction: row;
+  margin-left: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  cursor: pointer;
+  margin-right: 0vh;
+  transition: all 0.5s;
+  animation: rotate-logo 0.5s ease forwards;
+  animation-delay: 1.1s;
+  animation-iteration-count: 1;
+}
+
+#title:hover {
+  transform: rotate(360deg);
+}
+
+#title:hover + #name {
+  animation: showname 0.5s ease forwards;
+  animation-iteration-count: 1;
+}
+
+@keyframes name {
+  0% {
+    width: 0%;
+  }
+  90% {
+    width: 12%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+@keyframes showname {
+  0% {
+    width: 0%;
+  }
+  /* 90%{
+        width: 12%;
+    } */
+
+  100% {
+    width: 12%;
+  }
+}
+@keyframes rotate-logo {
+  0% {
+    transform: rotate(0deg);
+  }
+  /* 50%{
+        width: 4%;
+    } */
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+#name {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  /* color: coral; */
+  /* background-image: linear-gradient(90deg, #f73094, #af4261); */
+  background-image: linear-gradient(90deg, #f73d30, #ac1c45);
+  background-clip: text;
+  /* -webkit-text-fill-color: transparent; */
+  margin-bottom: 0.8vh;
+  margin-left: 0vh;
+  /* z-index: -1; */
+  width: 0vh;
+  overflow: hidden;
+  font-family: "Aquire";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  animation: name 0.5s ease forwards;
+  animation-delay: 1.1s;
+  animation-iteration-count: 1;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  margin-right: 3vw;
+  margin-left: auto;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-family: "Aquire";
+  margin: 1vw;
+  background-image: linear-gradient(90deg, #f73d30, #ac1c45);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.link {
+  color: coral;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.link:hover {
+  background-image: linear-gradient(90deg, #f73d30, #170007);
+  border-bottom: 2px #ac1c45 solid;
+  padding-bottom: 1vh;
+  transition: all 0.5s;
+}
+.social-con {
+  display: flex;
+  flex-direction: row;
+  height: 6vh;
+}
+
+.social {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.social-links {
+  margin: 1vh;
+  width: auto;
+}
