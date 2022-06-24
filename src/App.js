@@ -1,4 +1,3 @@
-import './App.css';
 import './assets/bootstrap/css/bootstrap.min.css'
 import {
   HashRouter as Router,

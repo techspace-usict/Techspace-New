@@ -1,0 +1,18 @@
+.heroImage{
+    width: 35vw;
+}
+
+.myconatiner{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (width<800px){
+    .heroImage{
+        width: 80vw !important;
+    }
+
+}
