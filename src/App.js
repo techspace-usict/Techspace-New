@@ -1,4 +1,3 @@
-import './App.css';
 import './assets/bootstrap/css/bootstrap.min.css'
 import Navbar from './Components/Navbar';
 import Footer from './Components/Footer';
