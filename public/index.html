@@ -4,7 +4,6 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
     <meta
       name="description"
       content="Web site created using create-react-app"
@@ -44,5 +43,33 @@
   <script src="../src/assets/bootstrap/js/bootstrap.min.js"></script>
   <script src="../src/assets/js/bs-init.js"></script>
   <script src="../src/assets/js/bold-and-bright.js"></script>
+  <script>
+    var theme = "day";
+    function changeTheme(mode){
+      if (theme == "day") {
+        console.log("Changed theme run to night");
+        document.getElementById("theme").src = "resources/kaam_ki_photu/moon-icon.png"
+        document.getElementById("body").style.backgroundColor = "black";
+        document.getElementById("body").style.color = "white";
+        document.getElementById("mainNav").style.backgroundColor = "black";
+        document.getElementById("mainNav").classList.remove = "navbar-light";
+        document.getElementById("mainNav").classList.add("navbar-dark");
+        document.getElementById("header").style.backgroundColor = "black";
+        theme = "night";
+      }
+      else{
+        console.log("changing to day mode");
+        console.log(theme)
+        document.getElementById("theme").src = "resources/kaam_ki_photu/sun.png"
+        document.getElementById("body").style.backgroundColor = "white";
+        document.getElementById("body").style.color = "black";
+        document.getElementById("mainNav").style.backgroundColor = "white";
+        document.getElementById("header").style.backgroundColor = "white";
+        document.getElementById("mainNav").classList.remove = "navbar-dark";
+        document.getElementById("mainNav").classList.add("navbar-light");
+        theme = "day"
+      };
+    }
+  </script>
 
 </html>
