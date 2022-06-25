@@ -12,7 +12,7 @@ const Footer = () => {
               <a href="/">Techspace</a>
             </div>
             <ul class="list-unstyled nav-links mb-5">
-              <li><a rel='noreferrer' href="http://www.ipu.ac.in/" target="_blank">IPU</a></li>
+              <li><a rel='noreferrer' href="http://www.ipu.ac.in/" target="_blank">GGSIPU</a></li>
               <li><a rel='noreferrer' href="https://medium.com/techspace-usict" target="_blank">Medium</a></li>
               <li><a rel='noreferrer' href="/about" target="_blank">About</a></li>
               <li><a rel='noreferrer' href="#clubs" target="_blank">Clubs</a></li>
