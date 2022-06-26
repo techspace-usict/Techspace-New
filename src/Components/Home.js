@@ -7,9 +7,9 @@ import './CSS/Hero.css'
 const Home = () => {
   return (
     <>
-      <header className="py-5">
-        <div className="container py-5" id="header">
-          <div className="row py-5">
+      <header className="py-5 mb-5 mt-5">
+        <div className="container" id="header">
+          <div className="row">
             <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-flex justify-content-center align-items-center mb-4">
               <div style={{ maxWidth: 450 }}>
                 <h2 className="fw-bold">Best place to nurture yourself</h2>
@@ -35,7 +35,7 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <section className="py-5">
+      <section className="pb-5">
         <div className="container text-center py-5">
           <p className="mb-4" style={{ fontSize: "1.6rem" }}>
             Having{" "}
@@ -260,8 +260,8 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-5 mt-5">
-        <div className="container py-5">
+      <section className="py-2">
+        <div className="container">
           <div className="row mb-4 mb-lg-5">
             <div className="col-md-8 col-xl-6 text-center mx-auto">
               <p className="fw-bold text-success mb-2">Our Leads</p>
