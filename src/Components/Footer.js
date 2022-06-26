@@ -16,10 +16,10 @@ const Footer = () => {
         {/* </section> */}
         <div class="container d-flex flex-column justify-content-center">
           <div class="row justify-content-center">
-            <div class="col-md-9 text-center">
               <div class="footer-site-logo mb-4">
                 <a href="/">Techspace</a>
               </div>
+            <div class="col-md-9 text-center">
               <div className="container">
                 <div className="row mb-5">
                   <div className="col-md-8 col-xl-6 text-center mx-auto">
@@ -106,7 +106,7 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <ul class="list-unstyled nav-links mb-5 d-flex flex-row">
+              <ul class="list-unstyled nav-links mb-5 d-flex flex-column">
                 <li>
                   <a
                     rel="noreferrer"
@@ -137,6 +137,7 @@ const Footer = () => {
                 </li>
               </ul>
 
+            </div>
               <div class="social mb-4">
                 <h3>Stay in touch</h3>
                 <ul class="list-unstyled">
@@ -183,7 +184,6 @@ const Footer = () => {
                   <small>&copy; Techspace USICT. All Rights Reserved.</small>
                 </p>
               </div>
-            </div>
           </div>
         </div>
       </footer>
