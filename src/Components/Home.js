@@ -10,7 +10,7 @@ const Home = () => {
       <header className="py-5">
         <div className="container py-5" id="header">
           <div className="row py-5">
-            <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-md-flex justify-content-center align-items-center justify-content-md-start align-items-md-center justify-content-xl-end mb-4">
+            <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-flex justify-content-center align-items-center mb-4">
               <div style={{ maxWidth: 450 }}>
                 <h2 className="fw-bold">Best place to nurture yourself</h2>
                 <p className="my-3">
@@ -18,9 +18,8 @@ const Home = () => {
                 </p>
                 <div className="my-2">
                   <button
-                    className="btn btn-primary shadow"
+                    className="btn btn-info shadow"
                     type="submit"
-                    style={{ backgroundColor: "coral" }}
                   >
                     Subscribe
                   </button>
@@ -47,56 +46,49 @@ const Home = () => {
           </p>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/cogitans.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/code_school.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/ecell.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/electrotech.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/gdsc.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/idroid.png")}
               alt=''
             />
           </Link>
           <Link to="/">
             <img
-              className="m-3"
-              style={{ width: "8vw" }}
+              className="m-3 clubImg"
               src={require("./Images/Turing.png")}
               alt=''
             />
@@ -128,7 +120,7 @@ const Home = () => {
                         Interesting and learning the new stuff before they came to
                         the market.
                       </h5>
-                      <button className="btn btn-primary btn-sm" type="button">
+                      <button className="btn btn-info btn-sm" type="button">
                         Learn more
                       </button>
                     </div>
@@ -147,7 +139,7 @@ const Home = () => {
                         Codeschool welcomes you to the world of competitive
                         programming and grow with us.
                       </h5>
-                      <button className="btn btn-secondary btn-sm" type="button">
+                      <button className="btn btn-info btn-sm" type="button">
                         Learn more
                       </button>
                     </div>

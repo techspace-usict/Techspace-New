@@ -1,7 +1,48 @@
 import React from "react";
 import { Link } from "react-router-dom";
+
+
+
+
+
+
+
 const Navbar = () => {
+
+  var theme = "day";
+
+  function changeTheme(mode) {
+    if (theme == "day") {
+      console.log("Changed theme run to night");
+      document.getElementById("theme").src = "resources/kaam_ki_photu/moon-icon.png"
+      document.getElementById("body").style.backgroundColor = "black";
+      document.getElementById("body").style.color = "white";
+      document.getElementById("mainNav").style.backgroundColor = "black";
+      document.getElementById("mainNav").classList.remove = "navbar-light";
+      document.getElementById("mainNav").classList.add("navbar-dark");
+      document.getElementById("header").style.backgroundColor = "black";
+      theme = "night";
+    }
+    else {
+      console.log("changing to day mode");
+      console.log(theme)
+      document.getElementById("theme").src = "resources/kaam_ki_photu/sun.png"
+      document.getElementById("body").style.backgroundColor = "white";
+      document.getElementById("body").style.color = "black";
+      document.getElementById("mainNav").style.backgroundColor = "white";
+      document.getElementById("header").style.backgroundColor = "white";
+      document.getElementById("mainNav").classList.remove = "navbar-dark";
+      document.getElementById("mainNav").classList.add("navbar-light");
+      theme = "day"
+    };
+  }
+
+
   return (
+
+
+
+
     <div>
       <nav
         className="navbar navbar-light navbar-expand-md navbar-shrink py-3"
@@ -31,7 +72,7 @@ const Navbar = () => {
                 <Link
                   className="nav-link"
                   to="/club"
-                  onclick="window.scrollTo(0, 1500)"
+                  onclick={window.scrollTo(0, 1500)}
                 >
                   Clubs
                 </Link>
@@ -50,7 +91,7 @@ const Navbar = () => {
               alt=""
               width="32px"
               style={{ cursor: "pointer", transition: "all .2s" }}
-              onclick="changeTheme('night')"
+            // onclick={changeTheme('night')}
             />
           </div>
         </div>
