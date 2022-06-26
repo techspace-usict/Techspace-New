@@ -16,3 +16,37 @@
     }
 
 }
+.btn-info{
+    background-color: coral;
+    border: 0px solid coral !important;
+}
+.btn-info:hover{
+    background-color: rgb(243, 101, 49) !important;
+}
+.card{
+    min-height: 280px !important;
+}
+a:focus-visible{
+    border: 0px solid white !important;
+    box-shadow: white 0px 0px 0px 0px !important;
+    outline: none !important;
+}
+
+.clubImg{
+    width: 9vw;
+}
+
+@media (width<600px){
+    .clubImg{
+        width: 30vw;
+    }
+}
+@media (width<800px) and (width>600px) {
+    .clubImg{
+        width: 15vw;
+    }
+}
+
+.card-title {
+    min-height:105px !important;
+}
