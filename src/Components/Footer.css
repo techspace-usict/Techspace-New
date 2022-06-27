@@ -55,4 +55,25 @@ body {
         color: #dd4d5a; }
     .footer-16371 .copyright {
       color: #999999; }
-  
+.footer-16371 .nav-links li{
+  padding: 1rem !important;
+}
+.contact-us{
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  margin: 0px 0px;
+}
+
+.col-md-9{
+  width: 100%;
+  justify-content: space-around;
+}
+.nav-links{
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.footer-16371{
+  padding: 1rem !important;
+}

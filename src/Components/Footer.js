@@ -19,23 +19,51 @@ const Footer = () => {
               <div class="footer-site-logo mb-4">
                 <a href="/">Techspace</a>
               </div>
-            <div class="col-md-9 text-center">
-              <div className="container">
-                <div className="row mb-5">
+            <div class="col-md-9 d-flex mb-4">
+              <ul class="list-unstyled nav-links d-flex flex-column">
+              <div className="row">
+                  <div className="text-center mx-auto">
+                    <p className="fw-bold text-success mb-2">Quick Links</p>
+                  </div>
+                </div>
+                <li>
+                  <a
+                    rel="noreferrer"
+                    href="http://www.ipu.ac.in/"
+                    target="_blank"
+                  >
+                    GGSIPU
+                  </a>
+                </li>
+                <li>
+                  <a
+                    rel="noreferrer"
+                    href="https://medium.com/techspace-usict"
+                    target="_blank"
+                  >
+                    Medium
+                  </a>
+                </li>
+                <li>
+                  <a rel="noreferrer" href="/about" target="_blank">
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a rel="noreferrer" href="#clubs" target="_blank">
+                    Clubs
+                  </a>
+                </li>
+              </ul>
+              <div className="container contact-us">
+                <div className="row">
                   <div className="col-md-8 col-xl-6 text-center mx-auto">
-                    <p className="fw-bold text-success mb-2">Contacts</p>
-                    <h2 className="fw-bold">How you can reach us</h2>
+                    <p className="fw-bold text-success mb-2">Contact Us</p>
                   </div>
                 </div>
                 <div
-                  className="col-md-4 col-xl-4 d-flex flex-row justify-content-start"
-                  style={{
-                    margin: "auto",
-                    width: "100%",
-                    // maxWidth: "3vw"
-                  }}
-                >
-                  <div className="d-flex flex-wrap flex-column justify-content-start align-items-start h-100 w-25">
+                  className="col-md-4 col-xl-4 d-flex flex-row justify-content-start w-100">
+                  <div className="d-flex flex-wrap flex-column justify-content-start align-items-start h-100">
                     <div className="d-flex align-items-center p-3">
                       <div
                         className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
@@ -106,39 +134,8 @@ const Footer = () => {
                   </div>
                 </div>
               </div>
-              <ul class="list-unstyled nav-links mb-5 d-flex flex-column">
-                <li>
-                  <a
-                    rel="noreferrer"
-                    href="http://www.ipu.ac.in/"
-                    target="_blank"
-                  >
-                    GGSIPU
-                  </a>
-                </li>
-                <li>
-                  <a
-                    rel="noreferrer"
-                    href="https://medium.com/techspace-usict"
-                    target="_blank"
-                  >
-                    Medium
-                  </a>
-                </li>
-                <li>
-                  <a rel="noreferrer" href="/about" target="_blank">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a rel="noreferrer" href="#clubs" target="_blank">
-                    Clubs
-                  </a>
-                </li>
-              </ul>
-
             </div>
-              <div class="social mb-4">
+              <div class="social mb-4 text-center">
                 <h3>Stay in touch</h3>
                 <ul class="list-unstyled">
                   <li class="in">

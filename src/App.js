@@ -4,6 +4,7 @@ import Footer from './Components/Footer';
 import Home from './Components/Home';
 import Club from './Components/Club';
 import Infox from './Components/Infox';
+import About from './Components/About';
 import {
   HashRouter as Router,
   Switch,
@@ -18,6 +19,7 @@ function App() {
     <Route exact path='/'><Home/></Route>
     <Route exact path='/club'><Club/></Route>
     <Route exact path='/infox'><Infox/></Route>
+    <Route exact path='/about'><About/></Route>
     </Switch>
     <Footer/>
     </Router>

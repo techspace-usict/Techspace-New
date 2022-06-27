@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <>
       <header className="py-5 mb-5 mt-5">
-        <div className="container" id="header">
+        <div className="container">
           <div className="row">
             <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-flex justify-content-center align-items-center mb-4">
               <div style={{ maxWidth: 450 }}>
