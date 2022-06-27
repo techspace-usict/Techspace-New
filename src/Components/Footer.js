@@ -10,50 +10,26 @@ import {
 const Footer = () => {
   return (
     <div>
-      <footer class="footer-16371">
-        {/* <section className="py-1"> */}
+    <footer className="footer-16371 body">
+        <div className="row justify-content-center">
+          <div className="col-md-9 text-center">
+            <div className="footer-site-logo mb-4">
+              <a href="/">Techspace</a>
+            </div>
+            <ul className="list-unstyled nav-links mb-5">
+              <li><a rel='noreferrer' href="http://www.ipu.ac.in/" target="_blank" style={{color: "red"}}>GGSIPU</a></li>
+              <li><a rel='noreferrer' href="https://medium.com/techspace-usict" target="_blank"  style={{color: "Blue"}}>Medium</a></li>
+              <li><a rel='noreferrer' href="/about" target="_blank"  style={{color: "lightblue"}}>About</a></li>
+              <li><a rel='noreferrer' href="#clubs" target="_blank"  style={{color: "coral"}}>Clubs</a></li>
+            </ul>
 
-        {/* </section> */}
-        <div class="container d-flex flex-column justify-content-center">
-          <div class="row justify-content-center">
-              <div class="footer-site-logo mb-4">
-                <a href="/">Techspace</a>
-              </div>
-            <div class="col-md-9 d-flex mb-4">
-              <ul class="list-unstyled nav-links d-flex flex-column">
-              <div className="row">
-                  <div className="text-center mx-auto">
-                    <p className="fw-bold text-success mb-2">Quick Links</p>
-                  </div>
-                </div>
-                <li>
-                  <a
-                    rel="noreferrer"
-                    href="http://www.ipu.ac.in/"
-                    target="_blank"
-                  >
-                    GGSIPU
-                  </a>
-                </li>
-                <li>
-                  <a
-                    rel="noreferrer"
-                    href="https://medium.com/techspace-usict"
-                    target="_blank"
-                  >
-                    Medium
-                  </a>
-                </li>
-                <li>
-                  <a rel="noreferrer" href="/about" target="_blank">
-                    About
-                  </a>
-                </li>
-                <li>
-                  <a rel="noreferrer" href="#clubs" target="_blank">
-                    Clubs
-                  </a>
-                </li>
+            <div className="social mb-4">
+              <h3>Stay in touch</h3>
+              <ul className="list-unstyled">
+                <li className="in"><a rel='noreferrer' href="https://www.instagram.com/techspace_usict/" target='_blank'><FaInstagram/></a></li>
+                <li className="fb"><a rel='noreferrer' href="https://www.facebook.com/techspaceusict" target='_blank'><FaFacebookF/></a></li>
+                <li className="tw"><a rel='noreferrer' href="https://twitter.com/infoxpression" target='_blank'><FaTwitter/></a></li>
+                <li className="pin"><a rel='noreferrer' href="https://www.linkedin.com/company/techspace-usict/" target='_blank'><FaLinkedinIn/></a></li>
               </ul>
               <div className="container contact-us">
                 <div className="row">
@@ -135,52 +111,9 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-              <div class="social mb-4 text-center">
-                <h3>Stay in touch</h3>
-                <ul class="list-unstyled">
-                  <li class="in">
-                    <a
-                      rel="noreferrer"
-                      href="https://www.instagram.com/techspace_usict/"
-                      target="_blank"
-                    >
-                      <FaInstagram />
-                    </a>
-                  </li>
-                  <li class="fb">
-                    <a
-                      rel="noreferrer"
-                      href="https://www.facebook.com/techspaceusict"
-                      target="_blank"
-                    >
-                      <FaFacebookF />
-                    </a>
-                  </li>
-                  <li class="tw">
-                    <a
-                      rel="noreferrer"
-                      href="https://twitter.com/infoxpression"
-                      target="_blank"
-                    >
-                      <FaTwitter />
-                    </a>
-                  </li>
-                  <li class="pin">
-                    <a
-                      rel="noreferrer"
-                      href="https://www.linkedin.com/company/techspace-usict/"
-                      target="_blank"
-                    >
-                      <FaLinkedinIn />
-                    </a>
-                  </li>
-                </ul>
-              </div>
-              <div class="copyright">
-                <p class="mb-0">
-                  <small>&copy; Techspace USICT. All Rights Reserved.</small>
-                </p>
-              </div>
+            <div className="copyright">
+              <p className="mb-0"><small>&copy; Techspace USICT. All Rights Reserved.</small></p>
+            </div>
           </div>
         </div>
       </footer>

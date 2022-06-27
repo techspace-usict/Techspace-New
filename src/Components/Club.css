@@ -50,16 +50,16 @@
   grid-row: 2/3;
 }
 
-.content {
+.content2 {
   /* width: auto; */
   display: flex;
   flex-direction: row;
   margin-left: 5vw;
   margin-right: 5vw;
-  margin-top: 4vh;
+  /* margin-top: 4vh; */
   margin-bottom: 4vh;
 }
-.content h3 {
+.content2 h3 {
   margin: 1vh;
   margin-left: 0vh;
   font-weight: lighter;
@@ -67,7 +67,7 @@
   font-size: large;
 }
 
-.content h1 {
+.content2 h1 {
   margin: 1vh;
   /* font-weight:900; */
   margin-left: 0px;
