@@ -1,6 +1,6 @@
 import React from 'react'
 import './CSS/style.css'
-import {FaInstagram} from "react-icons/fa"
+import { FaInstagram,FaLinkedinIn } from 'react-icons/fa'
 // import Prince from "./Images/Prince.jpg"
 const About = () => {
   return (
@@ -365,10 +365,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/vivekkbhatia/">
-                      <i className="FaInstagram" />
+                    <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/vivek-bhatia-33484217a/">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -392,7 +392,7 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.linkedin.com/in/ridhi-bhat-6a9342192">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -412,7 +412,7 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/kartik_chaudhary__/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                   </div>
                 </div>
@@ -432,10 +432,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/quantum_prince/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/prince-kumar-gupta-a4214518a">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -460,10 +460,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://instagram.com/himeshnayak.8">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://linkedin.com/in/himeshnayak015">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -483,10 +483,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/manas_arora_04/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/manas-arora-274b681b1">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -506,10 +506,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/abhayykulshrestha/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/abhay-kulshrestha-7192121b9">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -529,10 +529,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/kunnaal007/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/kunnaal">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -554,10 +554,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/shivank.ss/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/shivank-sapra/">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -577,10 +577,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/deepanshu_johar/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/deepanshu-johar">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
@@ -600,10 +600,10 @@ const About = () => {
                   />
                   <div className="social">
                     <a href="https://www.instagram.com/adarsh.dhir/">
-                      <i className="bi bi-instagram" />
+                      <FaInstagram />
                     </a>
                     <a href="https://www.linkedin.com/in/adarshdhir/">
-                      <i className="bi bi-linkedin" />
+                      <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
