@@ -2,9 +2,9 @@ import React from 'react'
 import './Club.css'
 const Club = () => {
   return (
-    <div><>
-    <section style={{ marginTop: "10vh" }}>
-      <div className="content">
+    <div className='body'>
+    <section>
+      <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>GDSC</h1>
           <h3>
@@ -15,42 +15,42 @@ const Club = () => {
           </h3>
         </div>
         <div className="img">
-          <img src="resources/gdsc.png" width="100vw" alt="" />
+          <img src={require("./Images/code_school.png")} width="100vw" alt="" />
         </div>
       </div>
       <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
-              src="resources/kaam_ki_photu/codeschool-01.JPG"
+              src={require("./Images/codeschool-01.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src="resources/kaam_ki_photu/codeschool-02.JPG"
+              src={require("./Images/codeschool-02.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con3" className="image">
             <img
-              src="resources/kaam_ki_photu/codeschool-03.jpg"
+              src={require("./Images/codeschool-03.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con4" className="image">
             <img
-              src="resources/kaam_ki_photu/cogitans-03.jpg"
+              src={require("./Images/cogitans-03.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con5" className="image">
             <img
-              src="resources/kaam_ki_photu/registration.JPG"
+              src={require("./Images/registration.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
@@ -75,10 +75,10 @@ const Club = () => {
       <div className="about-image">
         <div className="popout">
           <div className="circle">
-            <img aria-hidden="true" src="resources/back.png" alt="Nature" />
+            <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Himesh Nayak" src="resources/Himesh.png" />
+            <img alt="Himesh Nayak" src={require("./Images/Himesh.png")} />
             <div className="desc fw-bold">
               Himesh Nayak
               <br />
@@ -97,7 +97,6 @@ const Club = () => {
         </p>
       </div>
     </section>
-  </>
   </div>
   )
 }

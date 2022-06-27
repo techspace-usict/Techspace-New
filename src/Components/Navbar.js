@@ -2,37 +2,53 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 
-
-
-
-
-
 const Navbar = () => {
+
+  function scroll(){
+    window.scrollTo(0,1000);
+  }
 
   var theme = "day";
 
-  function changeTheme(mode) {
+  function changeTheme() {
     if (theme == "day") {
       console.log("Changed theme run to night");
-      document.getElementById("theme").src = "resources/kaam_ki_photu/moon-icon.png"
-      document.getElementById("body").style.backgroundColor = "black";
-      document.getElementById("body").style.color = "white";
-      document.getElementById("mainNav").style.backgroundColor = "black";
-      document.getElementById("mainNav").classList.remove = "navbar-light";
-      document.getElementById("mainNav").classList.add("navbar-dark");
-      document.getElementById("header").style.backgroundColor = "black";
+      document.getElementById("theme").src = require("./Images/moon-icon.png")
+      console.log("Hey2")
+      console.log("hey")
+      var bodylist = document.getElementsByClassName("body")
+      for (let index = 0; index < bodylist.length; index++) {
+        const element = bodylist[index];
+        console.log(element)
+        element.style.backgroundColor = "black"
+        element.style.color = "whitesmoke"
+      }
+      // document.getElementById("body").style.backgroundColor = "black";
+      // document.getElementById("body").style.color = "white";
+      // document.getElementById("mainNav").style.backgroundColor = "black";
+      // document.getElementById("mainNav").classList.add
+      // document.getElementById("mainNav").classList.remove = "navbar-light";
+      // document.getElementById("mainNav").classList.add("navbar-dark");
+      // document.getElementById("header").style.backgroundColor = "black";
       theme = "night";
     }
     else {
       console.log("changing to day mode");
       console.log(theme)
-      document.getElementById("theme").src = "resources/kaam_ki_photu/sun.png"
-      document.getElementById("body").style.backgroundColor = "white";
-      document.getElementById("body").style.color = "black";
-      document.getElementById("mainNav").style.backgroundColor = "white";
-      document.getElementById("header").style.backgroundColor = "white";
-      document.getElementById("mainNav").classList.remove = "navbar-dark";
-      document.getElementById("mainNav").classList.add("navbar-light");
+      document.getElementById("theme").src = require("./Images/sun.png")
+      // document.getElementById("body").style.backgroundColor = "white";
+      // document.getElementById("body").style.color = "black";
+      // document.getElementById("mainNav").style.backgroundColor = "white";
+      // document.getElementById("header").style.backgroundColor = "white";
+      // document.getElementById("mainNav").classList.remove = "navbar-dark";
+      // document.getElementById("mainNav").classList.add("navbar-light");
+      var bodylist = document.getElementsByClassName("body")
+      for (let index = 0; index < bodylist.length; index++) {
+        const element = bodylist[index];
+        console.log(element)
+        element.style.backgroundColor = "whitesmoke"
+        element.style.color = "black"
+      }
       theme = "day"
     };
   }
@@ -45,7 +61,7 @@ const Navbar = () => {
 
     <div>
       <nav
-        className="navbar navbar-light navbar-expand-md navbar-shrink py-3"
+        className="navbar navbar-expand-md navbar-shrink body"
         id="mainNav"
       >
         <div className="container"
@@ -56,7 +72,7 @@ const Navbar = () => {
             className="navbar-brand d-flex align-items-center"
             to="team.html"
           >
-            <img src="resources/kaam_ki_photu/logo.png" alt="" height="50vh" />
+            <img src={require("./Images/logo.png")} alt="" height="50vh" />
           </Link>
           <button
             data-bs-toggle="collapse"
@@ -72,7 +88,7 @@ const Navbar = () => {
                 <Link
                   className="nav-link"
                   to="/club"
-                  onclick={window.scrollTo(0, 1500)}
+                  onClick={scroll}
                 >
                   Clubs
                 </Link>
@@ -87,11 +103,11 @@ const Navbar = () => {
           <div className="mode" id="mode">
             <img
               id="theme"
-              src="resources/kaam_ki_photu/sun.png"
+              src={require("./Images/sun.png")}
               alt=""
               width="32px"
-              style={{ cursor: "pointer", transition: "all .2s" }}
-            // onclick={changeTheme('night')}
+              style={{ cursor: "pointer", transition: "all .2s", width: "30px", height: "30px"}}
+            onClick={changeTheme}
             />
           </div>
         </div>

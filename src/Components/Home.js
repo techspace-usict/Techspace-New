@@ -6,8 +6,8 @@ import './CSS/Hero.css'
 
 const Home = () => {
   return (
-    <>
-      <header className="py-5 mb-5 mt-5">
+    <div className='body'>
+      <header className="py-5 mb-5">
         <div className="container" id="header">
           <div className="row">
             <div className="col-md-6 text-center text-md-start d-flex d-sm-flex d-flex justify-content-center align-items-center mb-4">
@@ -379,7 +379,7 @@ const Home = () => {
               <div className="text-center">
                 <img
                   className="rounded card-2 mb-3 fit-cover"
-                  // src={require("./Images/kartik.jpg")}
+                  src={require("./Images/kartik.JPG")}
                   width={150}
                   height={150}
                   alt=''
@@ -482,7 +482,7 @@ const Home = () => {
           </div>
         </div>
       </section>
-    </>
+    </div>
 
   )
 }
