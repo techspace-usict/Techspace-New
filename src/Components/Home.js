@@ -236,25 +236,6 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col mb-4">
-                  <div
-                    className="card card-2"
-                    style={{ backgroundColor: "rgba(106, 142, 35, 0.201)" }}
-                  >
-                    <div className="card-body text-center px-4 py-5 px-md-5">
-                      <p className="fw-bold text-info card-text mb-2">
-                        Unity Game Dev
-                      </p>
-                      <h5 className="fw-bold card-title mb-3">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. In
-                        sequi quis a ullam harum voluptatem .
-                      </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -419,6 +400,7 @@ const Home = () => {
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"
+                    fill='whitesmoke'
                     height="1em"
                     viewBox="0 0 16 16"
                     className="bi bi-telephone"
@@ -440,6 +422,7 @@ const Home = () => {
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="1em"
+                      fill='whitesmoke'
                       height="1em"
                       viewBox="0 0 16 16"
                       className="bi bi-envelope"
@@ -465,6 +448,7 @@ const Home = () => {
                     xmlns="http://www.w3.org/2000/svg"
                     width="1em"
                     height="1em"
+                    fill='whitesmoke'
                     viewBox="0 0 16 16"
                     className="bi bi-pin"
                   >
