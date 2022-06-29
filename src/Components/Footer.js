@@ -20,11 +20,11 @@ const Footer = () => {
               <li><a rel='noreferrer' href="http://www.ipu.ac.in/" target="_blank" style={{color: "red"}}>GGSIPU</a></li>
               <li><a rel='noreferrer' href="https://medium.com/techspace-usict" target="_blank"  style={{color: "Blue"}}>Medium</a></li>
               <li><a rel='noreferrer' href="/about" target="_blank"  style={{color: "lightblue"}}>About</a></li>
-              <li><a rel='noreferrer' href="#clubs" target="_blank"  style={{color: "coral"}}>Clubs</a></li>
+              <li><a rel='noreferrer' href="#clubs" target="_blank"  style={{color: "#6e5494"}}>Clubs</a></li>
             </ul>
 
             <div className="social mb-4">
-              <h3>Stay in touch</h3>
+              <h3 style={{color:"Olive"}}>Stay in touch</h3>
               <ul className="list-unstyled">
                 <li className="in"><a rel='noreferrer' href="https://www.instagram.com/techspace_usict/" target='_blank'><FaInstagram/></a></li>
                 <li className="fb"><a rel='noreferrer' href="https://www.facebook.com/techspaceusict" target='_blank'><FaFacebookF/></a></li>

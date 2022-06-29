@@ -65,7 +65,7 @@ const CodeSchool = () => {
         marginBottom: "0vh",
         marginTop: "4vh",
         fontWeight: "bold",
-        borderBottom: "2px solid coral",
+        borderBottom: "2px solid #6e5494",
         width: "15%"
       }}
     >

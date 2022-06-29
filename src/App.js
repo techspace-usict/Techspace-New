@@ -5,7 +5,6 @@ import Home from './Components/Home';
 import CodeSchool from './Components/CodeSchool';
 import Cogitans from './Components/Cogitans';
 import Electrotech from './Components/Electrotech';
-import Infox from './Components/Infox';
 import About from './Components/About';
 import {
   HashRouter as Router,
@@ -30,7 +29,6 @@ function App() {
     <Route exact path='/turing'><Turing/></Route>
     <Route exact path='/idroid'><Idroid/></Route>
     <Route exact path='/gdsc'><GDSC/></Route>
-    <Route exact path='/infox'><Infox/></Route>
     <Route exact path='/about'><About/></Route>
     </Switch>
     <Footer/>

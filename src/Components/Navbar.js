@@ -1,11 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
+import "./CSS/Navbar.css"
 
 const Navbar = () => {
 
   function scroll(){
     window.scrollTo(0,1000);
+  }
+  function scroll2(){
+    window.scrollTo(0,5000);
   }
 
   var theme = "day";
@@ -22,6 +25,7 @@ const Navbar = () => {
         console.log(element)
         element.style.backgroundColor = "black"
         element.style.color = "whitesmoke"
+        document.getElementById("navigation").style.color = "green !important";
       }
       // document.getElementById("body").style.backgroundColor = "black";
       // document.getElementById("body").style.color = "white";
@@ -48,6 +52,9 @@ const Navbar = () => {
         console.log(element)
         element.style.backgroundColor = "whitesmoke"
         element.style.color = "black"
+        console.log(element)
+        console.log(element.style.color);
+        document.getElementById("navigation").style.color = "black !important";
       }
       theme = "day"
     };
@@ -64,7 +71,7 @@ const Navbar = () => {
         className="navbar navbar-expand-md navbar-shrink body"
         id="mainNav"
       >
-        <div className="container"
+        <div className="container body"
           id="navigation"
           style={{ overflow: "hidden" }}
         >
@@ -83,19 +90,24 @@ const Navbar = () => {
             <span className="navbar-toggler-icon" />
           </button>
           <div className="collapse navbar-collapse" id="navcol-1">
-            <ul className="navbar-nav mx-auto" style={{ marginLeft: "50vw" }}>
+            <ul className="navbar-nav mx-auto" id="navigation" style={{ marginLeft: "50vw"}}>
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="/club"
+                  to="#"
                   onClick={scroll}
                 >
                   Clubs
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/infox">
-                  Events
+                <Link className="nav-link" to="/about">
+                  About Us
+                </Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="#" onClick={scroll2}>
+                  Contact Us
                 </Link>
               </li>
             </ul>

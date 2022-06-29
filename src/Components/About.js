@@ -79,7 +79,7 @@ const About = () => {
             <h2>Our Vision</h2>
             <p>What We Aspire</p>
           </div>
-          <div className="row content" data-aos="fade-up">
+          <div className="row" data-aos="fade-up">
             <div className="col-lg-6">
               <p>
                 We aim to provide an environment where students can tinker with

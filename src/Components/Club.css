@@ -71,7 +71,7 @@
   margin: 1vh;
   /* font-weight:900; */
   margin-left: 0px;
-  border-bottom: 2px solid coral;
+  border-bottom: 2px solid #6e5494;
   width: 60vw;
 }
 
@@ -99,7 +99,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: coral;
+  background-color: #6e5494;
   border-radius: 10px;
 }
 

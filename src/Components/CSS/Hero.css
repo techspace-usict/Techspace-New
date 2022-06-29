@@ -17,8 +17,8 @@
 
 }
 .btn-info{
-    background-color: coral;
-    border: 0px solid coral !important;
+    background-color: #6e5494;
+    border: 0px solid #6e5494 !important;
 }
 .btn-info:hover{
     background-color: rgb(243, 101, 49) !important;

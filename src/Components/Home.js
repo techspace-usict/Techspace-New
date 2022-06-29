@@ -414,7 +414,7 @@ const Home = () => {
               <div className="d-flex align-items-center p-3 mx-auto col-md-4">
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
-                  style={{ backgroundColor: "coral" }}
+                  style={{ backgroundColor: "#6e5494" }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -435,7 +435,7 @@ const Home = () => {
                 <Link to="mailto:techspace@ipu.ac.in">
                   <div
                     className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
-                    style={{ backgroundColor: "coral" }}
+                    style={{ backgroundColor: "#6e5494" }}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -459,7 +459,7 @@ const Home = () => {
               <div className="d-flex align-items-center p-3 mx-auto col-md-4">
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
-                  style={{ backgroundColor: "coral" }}
+                  style={{ backgroundColor: "#6e5494" }}
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
