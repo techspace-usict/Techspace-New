@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #ef6603;
+  color: #6e5494;
   text-decoration: none;
 }
 
@@ -169,10 +169,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
-  border: 2px solid #ef6603;
+  border: 2px solid #6e5494;
 }
 #hero .btn-get-started:hover {
-  background: #ef6603;
+  background: #6e5494;
   color: #fff;
   text-decoration: none;
 }
@@ -297,7 +297,7 @@ section {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #fd9042;
+  background: #6e5494;
   margin: 4px 10px;
 }
 .section-title p {

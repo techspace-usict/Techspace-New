@@ -17,6 +17,7 @@ import Idroid from './Components/Idroid';
 import Turing from './Components/TuringAI';
 
 function App() {
+  
   return (
     <Router>
     <Navbar/>
