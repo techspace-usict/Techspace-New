@@ -1400,6 +1400,6 @@ section {
 }
 .img-fluid{
   height: 44vh !important;
+  width: 44vh !important;
   object-fit: cover !important;
-  aspect-ratio: 1 !important;
 }

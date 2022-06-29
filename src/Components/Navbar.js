@@ -11,7 +11,7 @@ const Navbar = () => {
   var theme = "day";
 
   function changeTheme() {
-    if (theme == "day") {
+    if (theme === "day") {
       console.log("Changed theme run to night");
       document.getElementById("theme").src = require("./Images/moon-icon.png")
       console.log("Hey2")
@@ -42,7 +42,7 @@ const Navbar = () => {
       // document.getElementById("header").style.backgroundColor = "white";
       // document.getElementById("mainNav").classList.remove = "navbar-dark";
       // document.getElementById("mainNav").classList.add("navbar-light");
-      var bodylist = document.getElementsByClassName("body")
+      bodylist = document.getElementsByClassName("body")
       for (let index = 0; index < bodylist.length; index++) {
         const element = bodylist[index];
         console.log(element)
