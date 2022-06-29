@@ -1,12 +1,12 @@
 import React from 'react'
 import './Club.css'
-const Club = () => {
+const Idroid = () => {
   return (
     <div className='body'>
     <section>
       <div className="content2">
         <div className="para">
-          <h1 style={{ fontWeight: "bold" }}>GDSC</h1>
+          <h1 style={{ fontWeight: "bold" }}>Idroid</h1>
           <h3>
             Coddeschool welcomes you to the world of competitive programming and
             grow with us. As the situation changes the Competion of getting a job
@@ -15,7 +15,7 @@ const Club = () => {
           </h3>
         </div>
         <div className="img">
-          <img src={require("./Images/code_school.png")} width="100vw" alt="" />
+          <img src={require("./Images/idroid.png")} width="100vw" alt="" />
         </div>
       </div>
       <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
@@ -78,18 +78,18 @@ const Club = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Himesh Nayak" src={require("./Images/Himesh.png")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Abhay.jpeg")} />
             <div className="desc fw-bold">
-              Himesh Nayak
+            Abhay Kulshrestha
               <br />
-              Gdsc-Lead
+              Idroid-Lead
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Himesh Nayak</h2>
-        <h5 style={{ fontWeight: "bold" }}>Gdsc-Lead</h5>
+        <h2 style={{ fontWeight: 550 }}>Abhay Kulshrestha</h2>
+        <h5 style={{ fontWeight: "bold" }}>Idroid-Lead</h5>
         <p>
           I am a first year CSE Undergrad Student, currently learning Mern Stack
           And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
@@ -101,4 +101,4 @@ const Club = () => {
   )
 }
 
-export default Club
+export default Idroid

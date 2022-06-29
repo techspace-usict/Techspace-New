@@ -8,7 +8,7 @@ const About = () => {
     {/* ======= Hero Section ======= */}
     <section
       id="hero"
-      className="d-flex flex-column justify-content-end align-items-center"
+      className="d-flex flex-column justify-content-end align-items-center body"
     >
       <div
         id="heroCarousel"
@@ -71,7 +71,7 @@ const About = () => {
       </svg>
     </section>
     {/* End Hero */}
-    <main id="main">
+    <main id="main" className='body'>
       {/* ======= About Section ======= */}
       <section id="about" className="about">
         <div className="container">
@@ -348,7 +348,7 @@ const About = () => {
       </section>
       {/* End Features Section */}
       {/* ======= Team Section ======= */}
-      <section id="team" className="team">
+      <section id="team" className="team body">
         <div className="container">
           <div className="section-title" data-aos="zoom-out">
             <h2>Team</h2>
