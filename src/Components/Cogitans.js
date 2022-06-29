@@ -15,42 +15,42 @@ const cogitans = () => {
           </h3>
         </div>
         <div className="img">
-          <img src={require("./Images/code_school.png")} width="100vw" alt="" />
+          <img src={require("./Images/cogitans.png")} width="100vw" alt="" />
         </div>
       </div>
       <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
-              src={require("./Images/codeschool-01.JPG")}
+              src={require("./Images/cogitans-01.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src={require("./Images/codeschool-02.JPG")}
+              src={require("./Images/cogitans-02.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con3" className="image">
             <img
-              src={require("./Images/codeschool-03.jpg")}
+              src={require("./Images/cogitans-03.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con4" className="image">
             <img
-              src={require("./Images/cogitans-03.jpg")}
+              src={require("./Images/cogitans-04.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con5" className="image">
             <img
-              src={require("./Images/registration.JPG")}
+              src={require("./Images/cogitans-05.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />

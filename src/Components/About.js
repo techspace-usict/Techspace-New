@@ -105,9 +105,6 @@ const About = () => {
                 proident, sunt in culpa qui officia deserunt mollit anim id est
                 laborum.
               </p>
-              <a href="/" className="btn-learn-more">
-                Learn More
-              </a>
             </div>
           </div>
         </div>
