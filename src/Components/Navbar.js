@@ -77,7 +77,7 @@ const Navbar = () => {
         >
           <Link
             className="navbar-brand d-flex align-items-center"
-            to="team.html"
+            to="/"
           >
             <img src={require("./Images/logo.png")} alt="" height="50vh" />
           </Link>
