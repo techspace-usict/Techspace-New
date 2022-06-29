@@ -135,7 +135,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   margin-left: 5px;
 }
-.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+.navbar, .navbar .active, .navbar .active:focus{
   background: #ef6603;
 }
 .navbar .dropdown ul {
