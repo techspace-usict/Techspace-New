@@ -78,7 +78,7 @@ const Electrotech = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/kunaal.jpeg")} />
+            <img alt="Deepanshu Johar" src={require("./Images/kunaal.png")} />
             <div className="desc fw-bold">
               Kunnaal
               <br />

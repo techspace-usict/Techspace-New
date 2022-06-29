@@ -78,11 +78,11 @@ const CodeSchool = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Deepanshu.jpeg")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Deepanshu.png")} />
             <div className="desc fw-bold">
-              Himesh Nayak
+              Deppanshu Johar
               <br />
-              Gdsc-Lead
+              Codeschool-Lead
             </div>
           </div>
         </div>

@@ -78,7 +78,7 @@ const Ecell = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Adarsh.jpg")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Adarsh.png")} />
             <div className="desc fw-bold">
               Adarsh Dhir
               <br />

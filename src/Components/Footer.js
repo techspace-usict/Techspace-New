@@ -40,7 +40,7 @@ const Footer = () => {
                 <div
                   className="col-md-4 col-xl-4 d-flex flex-row justify-content-start w-100">
                   <div className="d-flex flex-wrap flex-column justify-content-start align-items-start h-100">
-                    <div className="d-flex align-items-center p-3">
+                    <div className="d-flex align-items-center p-3 mx-auto">
                       <div
                         className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                         style={{ backgroundColor: "coral" }}
@@ -60,7 +60,7 @@ const Footer = () => {
                         <p className="text-muted mb-0">99684 65876</p>
                       </div>
                     </div>
-                    <div className="d-flex align-items-center p-3">
+                    <div className="d-flex align-items-center p-3 mx-auto">
                       <Link to="mailto:techspace@ipu.ac.in">
                         <div
                           className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
@@ -85,7 +85,7 @@ const Footer = () => {
                         <p className="text-muted mb-0">Techspace@ipu.ac.in</p>
                       </div>
                     </div>
-                    <div className="d-flex align-items-center p-3">
+                    <div className="d-flex align-items-center p-3 mx-auto">
                       <div
                         className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                         style={{ backgroundColor: "coral" }}
