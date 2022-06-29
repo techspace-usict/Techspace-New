@@ -8,6 +8,9 @@ import {
   FaTwitter,
 } from "react-icons/fa";
 const Footer = () => {
+  function scroll(){
+    window.scrollTo(1000,1000);
+  }
   return (
     <div>
     <footer className="footer-16371 body">
@@ -20,8 +23,8 @@ const Footer = () => {
             <ul className="list-unstyled nav-links mb-5">
               <li><a rel='noreferrer' href="http://www.ipu.ac.in/" target="_blank" style={{color: "#6e5494"}}>GGSIPU</a></li>
               <li><a rel='noreferrer' href="https://medium.com/techspace-usict" target="_blank"  style={{color: "#6e5494"}}>Medium</a></li>
-              <li><a rel='noreferrer' href="/about" target="_blank"  style={{color: "#6e5494"}}>About</a></li>
-              <li><a rel='noreferrer' href="#clubs" target="_blank"  style={{color: "#6e5494"}}>Clubs</a></li>
+              <li><a rel='noreferrer' href="/about" style={{color: "#6e5494"}}>About</a></li>
+              <li><a rel='noreferrer' href="#" onClick={scroll} target=""  style={{color: "#6e5494"}}>Clubs</a></li>
             </ul>
 
             <div className="social mb-4">
