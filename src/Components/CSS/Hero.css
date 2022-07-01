@@ -36,6 +36,12 @@ a:focus-visible{
     width: 9vw;
 }
 
+.card-2:hover {
+    box-shadow: 0px 0px 5px 3px rgba(50, 50, 50, 0.288);
+    transform: scale(1.02);
+    transition: all 0.3s;
+}
+
 @media (width<600px){
     .clubImg{
         width: 30vw;

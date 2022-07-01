@@ -6,7 +6,7 @@ import './CSS/Hero.css'
 
 const Home = () => {
   return (
-    <div className='body'>
+    <div className='body' style={{width: "100vw",}}>
       <header className="py-5 mb-5">
         <div className="container">
           <div className="row">
