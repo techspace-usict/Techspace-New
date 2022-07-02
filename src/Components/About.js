@@ -127,10 +127,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/vivekkbhatia/">
+                    <a href="https://www.instagram.com/vivekkbhatia/"  target = "_blank">
                     <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/vivek-bhatia-33484217a/">
+                    <a href="https://www.linkedin.com/in/vivek-bhatia-33484217a/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -154,7 +154,7 @@ const About = () => {
                     }}
                   />
                   <div className="social">
-                    <a href="https://www.linkedin.com/in/ridhi-bhat-6a9342192">
+                    <a href="https://www.linkedin.com/in/ridhi-bhat-6a9342192" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -174,7 +174,7 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/kartik_chaudhary__/">
+                    <a href="https://www.instagram.com/kartik_chaudhary__/" target = "_blank">
                       <FaInstagram />
                     </a>
                   </div>
@@ -194,10 +194,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/quantum_prince/">
+                    <a href="https://www.instagram.com/quantum_prince/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/prince-kumar-gupta-a4214518a">
+                    <a href="https://www.linkedin.com/in/prince-kumar-gupta-a4214518a" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -222,10 +222,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://instagram.com/himeshnayak.8">
+                    <a href="https://instagram.com/himeshnayak.8" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://linkedin.com/in/himeshnayak015">
+                    <a href="https://linkedin.com/in/himeshnayak015" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -245,10 +245,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/manas_arora_04/">
+                    <a href="https://www.instagram.com/manas_arora_04/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/manas-arora-274b681b1">
+                    <a href="https://www.linkedin.com/in/manas-arora-274b681b1" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -268,10 +268,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/abhayykulshrestha/">
+                    <a href="https://www.instagram.com/abhayykulshrestha/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/abhay-kulshrestha-7192121b9">
+                    <a href="https://www.linkedin.com/in/abhay-kulshrestha-7192121b9" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -291,10 +291,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/kunnaal007/">
+                    <a href="https://www.instagram.com/kunnaal007/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/kunnaal">
+                    <a href="https://www.linkedin.com/in/kunnaal" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -316,10 +316,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/shivank.ss/">
+                    <a href="https://www.instagram.com/shivank.ss/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/shivank-sapra/">
+                    <a href="https://www.linkedin.com/in/shivank-sapra/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -339,10 +339,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/deepanshu_johar/">
+                    <a href="https://www.instagram.com/deepanshu_johar/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/deepanshu-johar">
+                    <a href="https://www.linkedin.com/in/deepanshu-johar" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -362,10 +362,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/adarsh.dhir/">
+                    <a href="https://www.instagram.com/adarsh.dhir/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/adarshdhir/">
+                    <a href="https://www.linkedin.com/in/adarshdhir/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
