@@ -3,7 +3,7 @@ import './Club.css'
 const Ecell = () => {
   return (
     <div className='body'>
-    <section>
+    <section className="mt-5 club-about">
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Zenith Ecell</h1>

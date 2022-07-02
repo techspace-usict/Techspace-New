@@ -65,6 +65,7 @@ body {
   margin-right: 5vw;
   /* margin-top: 4vh; */
   margin-bottom: 4vh;
+  align-items: center;
 }
 .content2 h3 {
   margin: 1vh;
@@ -241,6 +242,9 @@ div.popout .person .desc:first-line {
 }
 
 @media only screen and (max-width:600px) {
+  .club-about{
+    height: 100vh;
+  }
   .top-sec{
     height: 112vh;
   }
@@ -300,7 +304,26 @@ div.popout .person .desc:first-line {
   .aboutt{
     flex-direction: column;
   }
-  .about-image, .popout{
-    width: 40vw !important;
+  .aboutme{
+    width: 80vw !important;
+  }
+  .person{
+    height: 25vw !important;
+    width: 25vw !important;
+    border-bottom-left-radius: 25vw 25vw !important;
+    border-bottom-right-radius: 25vw 25vw !important;
+    height: 25vw !important;
+  }
+  .circle{
+    height: 25vw !important;
+    width: 25vw !important;
+    border-radius: 50% !important;
+  }
+  .person img{
+    width: 25vw !important;
+    border-radius: 25vw !important;
+  }
+  .about-image{
+    margin-top: 10vh;
   }
 }

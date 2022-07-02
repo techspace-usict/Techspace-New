@@ -120,9 +120,11 @@ const Home = () => {
                         Interesting and learning the new stuff before they came to
                         the market.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="turing">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -139,9 +141,11 @@ const Home = () => {
                         Codeschool welcomes you to the world of competitive
                         programming and grow with us.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="codeschool">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -156,9 +160,11 @@ const Home = () => {
                         Cogitans are the Web DEv Commuinty which provides the exact
                         information and the current trends in this world.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="cogitans">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -173,9 +179,11 @@ const Home = () => {
                         This Club is For Android Geeks and who are keen to make
                         their own Apps and making money by placing it on playstore.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="idroid">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -192,9 +200,11 @@ const Home = () => {
                         Cogitans are the Web DEv Commuinty which provides the exact
                         information and the current trends in this world.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="electrotech">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -211,9 +221,11 @@ const Home = () => {
                         This is one of the Best Club which helps you to introduce
                         the real world of coding.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="gdsc">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -230,9 +242,11 @@ const Home = () => {
                         Cogitans are the Web DEv Commuinty which provides the exact
                         information and the current trends in this world.
                       </h5>
-                      <button className="btn btn-info btn-sm" type="button">
-                        Learn more
-                      </button>
+                      <Link to="ecell">
+                        <button className="btn btn-info btn-sm" type="button">
+                          Learn more
+                        </button>
+                      </Link>
                     </div>
                   </div>
                 </div>
