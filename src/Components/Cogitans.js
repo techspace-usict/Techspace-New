@@ -3,11 +3,11 @@ import './Club.css'
 const cogitans = () => {
   return (
     <div className='body'>
-    <section>
+    <section className='top-sec'>
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Cogitans</h1>
-          <h3>
+          <h3 className='article'>
             Coddeschool welcomes you to the world of competitive programming and
             grow with us. As the situation changes the Competion of getting a job
             in Google,Microsoft are getting harder we will provide the right
@@ -18,7 +18,7 @@ const cogitans = () => {
           <img src={require("./Images/cogitans.png")} width="100vw" alt="" />
         </div>
       </div>
-      <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
+      <div className='papa-con' style={{ width: "90vw", height: "40vw", marginLeft: "5vw", marginRight: "5vw" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
@@ -58,7 +58,7 @@ const cogitans = () => {
         </div>
       </div>
     </section>
-    <h1
+    <h1 className='club-lead'
       style={{
         margin: "auto",
         textAlign: "center",
@@ -78,7 +78,7 @@ const cogitans = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Manas.png")} />
+            <img alt="Manas" src={require("./Images/Manas.png")} />
             <div className="desc fw-bold">
               Manas
               <br />

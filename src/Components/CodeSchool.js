@@ -3,11 +3,11 @@ import './Club.css'
 const CodeSchool = () => {
   return (
     <div className='body'>
-    <section>
+    <section className='top-sec'>
       <div className="content2">
         <div className="para">
-          <h1 style={{ fontWeight: "bold" }}>GDSC</h1>
-          <h3>
+          <h1 style={{ fontWeight: "bold" }}>Codeschool</h1>
+          <h3 className='article'>
             Coddeschool welcomes you to the world of competitive programming and
             grow with us. As the situation changes the Competion of getting a job
             in Google,Microsoft are getting harder we will provide the right
@@ -18,7 +18,7 @@ const CodeSchool = () => {
           <img src={require("./Images/code_school.png")} width="100vw" alt="" />
         </div>
       </div>
-      <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
+      <div className='papa-con' style={{ width: "90vw", height: "40vw", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
@@ -58,7 +58,7 @@ const CodeSchool = () => {
         </div>
       </div>
     </section>
-    <h1
+    <h1 className='club-lead'
       style={{
         margin: "auto",
         textAlign: "center",
