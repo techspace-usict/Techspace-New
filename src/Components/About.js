@@ -27,7 +27,7 @@ const About = () => {
               students” technical society of USICT that works towards promoting
               discussion, creative collaboration, research and skill development.
             </p>
-            <a
+            <a rel='noreferrer'
               href="#about"
               className="btn-get-started animate__animated animate__fadeInUp scrollto"
             >
@@ -127,10 +127,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/vivekkbhatia/"  target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/vivekkbhatia/"  target = "_blank">
                     <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/vivek-bhatia-33484217a/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/vivek-bhatia-33484217a/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -154,7 +154,7 @@ const About = () => {
                     }}
                   />
                   <div className="social">
-                    <a href="https://www.linkedin.com/in/ridhi-bhat-6a9342192" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/ridhi-bhat-6a9342192" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -174,7 +174,7 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/kartik_chaudhary__/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/kartik_chaudhary__/" target = "_blank">
                       <FaInstagram />
                     </a>
                   </div>
@@ -194,10 +194,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/quantum_prince/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/quantum_prince/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/prince-kumar-gupta-a4214518a" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/prince-kumar-gupta-a4214518a" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -222,10 +222,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://instagram.com/himeshnayak.8" target = "_blank">
+                    <a rel='noreferrer' href="https://instagram.com/himeshnayak.8" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://linkedin.com/in/himeshnayak015" target = "_blank">
+                    <a rel='noreferrer' href="https://linkedin.com/in/himeshnayak015" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -245,10 +245,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/manas_arora_04/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/manas_arora_04/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/manas-arora-274b681b1" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/manas-arora-274b681b1" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -268,10 +268,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/abhayykulshrestha/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/abhayykulshrestha/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/abhay-kulshrestha-7192121b9" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/abhay-kulshrestha-7192121b9" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -291,10 +291,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/kunnaal007/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/kunnaal007/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/kunnaal" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/kunnaal" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -316,10 +316,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/shivank.ss/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/shivank.ss/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/shivank-sapra/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/shivank-sapra/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -339,10 +339,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/deepanshu_johar/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/deepanshu_johar/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/deepanshu-johar" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/deepanshu-johar" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -362,10 +362,10 @@ const About = () => {
                     alt=""
                   />
                   <div className="social">
-                    <a href="https://www.instagram.com/adarsh.dhir/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/adarsh.dhir/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a href="https://www.linkedin.com/in/adarshdhir/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/adarshdhir/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
@@ -380,6 +380,146 @@ const About = () => {
           <h3 className="text-center fw-bold mb-3" data-aos="fade-up">
             Contributors
           </h3>
+          <div className="row ">
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/Aakash.jpg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://instagram.com/aakzsh"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://linkedin.com/in/aakzsh" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Aakash Shrivastava</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/Ayush.jpg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://www.instagram.com/ayush__baliyan/"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/ayush-baliyan-4a2242146/" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Ayush Baliyan</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/vivek.jpeg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://www.instagram.com/dhruv._0810/"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/dhruv-gupta-55034a228/" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Dhruv Gupta</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/vivek.jpeg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://www.instagram.com/_divi2.0/"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/divyansh-787533211/" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Divyansh</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/vivek.jpeg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://www.instagram.com/gajrela_26/"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/gurjot-kaur-ab6bb0228" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Gurjot Kaur</h4>
+                  <span>Content Writer</span>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div className="member contributor-card" data-aos="fade-up">
+                <div className="member-img">
+                  <img
+                    src={require("./Images/vivek.jpeg")}
+                    className="img-fluid"
+                    alt=""
+                  />
+                  <div className="social">
+                    <a rel='noreferrer' href="https://www.instagram.com/jayden_397/"  target = "_blank">
+                    <FaInstagram />
+                    </a>
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/kartik-singh-68bb8b179/" target = "_blank">
+                      <FaLinkedinIn />
+                    </a>
+                  </div>
+                </div>
+                <div className="member-info">
+                  <h4>Kartik Singh</h4>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+            </div>
         </div>
       </section>
       {/* End Team Section */}

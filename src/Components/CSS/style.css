@@ -920,9 +920,9 @@ h1, h2, h3, h4, h5, h6 {
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
-  border-radius: 5px;
+  border-radius: 10px;
   background: #fff;
-  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.1);
 }
 .team .member .member-img {
   position: relative;
@@ -938,6 +938,9 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.contributor-card{
+  height: 58vh;
 }
 .team .member .social a {
   transition: color 0.3s;
