@@ -477,7 +477,7 @@ const About = () => {
               <div className="member contributor-card" data-aos="fade-up">
                 <div className="member-img">
                   <img
-                    src={require("./Images/vivek.jpeg")}
+                    src={require("./Images/Gurjot.jpg")}
                     className="img-fluid"
                     alt=""
                   />
