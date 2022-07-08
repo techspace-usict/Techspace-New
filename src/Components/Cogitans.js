@@ -8,10 +8,14 @@ const cogitans = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Cogitans</h1>
           <h3 className='article'>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          Have you ever thought of making your website? 
+          Well, being a part of growing India today I believe, 
+          everyone at least once in their life had thought of making a full-fledged website from scratch. 
+          So why let it be a dream when Cogitans is here to help you make one. It is a club under Techspace to promote Web Development
+          among students to showcase their skills using languages like HTML, JAVASCRIPT, ReactJS, etc.
+          Whatever image you have of your website in your head, we here will help you achieve the exact in real life by guiding you and giving you the 
+          exact information for diving deep into this technology.
+
           </h3>
         </div>
         <div className="img">

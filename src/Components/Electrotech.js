@@ -8,10 +8,8 @@ const Electrotech = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Electrotech</h1>
           <h3>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          Have you ever had the question “ What If?”. Electro Tech will help you answer this for most of the situations in your life. 
+          We hear will teach you and hone you with skills based on these little things that control us- so-called “ Microcontrollers?”
           </h3>
         </div>
         <div className="img">
@@ -91,9 +89,7 @@ const Electrotech = () => {
         <h2 style={{ fontWeight: 550 }}>Kunnaal</h2>
         <h5 style={{ fontWeight: "bold" }}>Electrotech-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        “Rivers know this: there is no hurry. We shall get there some day.”  ~ A.A. Milne
         </p>
       </div>
     </section>

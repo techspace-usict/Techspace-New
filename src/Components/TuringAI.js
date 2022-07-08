@@ -8,10 +8,9 @@ const Turing = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Turing AI</h1>
           <h3>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          Be it Artificial intelligence or Machine learning, Turing AI has got you. From interactive learning sessions to developing projects, it has got all. 
+          Various domains like Computer vision, natural language, etc., from basic to advanced are covered and are made so interesting that even the one with zero interest 
+          in coding might learn a thing or two.
           </h3>
         </div>
         <div className="img">
@@ -91,9 +90,9 @@ const Turing = () => {
         <h2 style={{ fontWeight: 550 }}>Shivank Sapra</h2>
         <h5 style={{ fontWeight: "bold" }}>Turing AI-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        "Technology will never replace great teachers but technology in the hands of great teachers is transformational."
+
+         -- George Couras
         </p>
       </div>
     </section>
