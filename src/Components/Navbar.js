@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import "./CSS/Navbar.css"
 
-const Navbar = () => {
+const Navbar = (props) => {
 
   function scroll(){
     window.scrollTo(0,1000);
@@ -11,54 +11,54 @@ const Navbar = () => {
     window.scrollTo(0,5000);
   }
 
-  var theme = "day";
+  // var theme = "day";
 
-  function changeTheme() {
-    if (theme === "day") {
-      console.log("Changed theme run to night");
-      document.getElementById("theme").src = require("./Images/moon-icon.png")
-      console.log("Hey2")
-      console.log("hey")
-      var bodylist = document.getElementsByClassName("body")
-      for (let index = 0; index < bodylist.length; index++) {
-        const element = bodylist[index];
-        console.log(element)
-        element.style.backgroundColor = "black"
-        element.style.color = "whitesmoke"
-        document.getElementById("navigation").style.color = "green !important";
-      }
-      // document.getElementById("body").style.backgroundColor = "black";
-      // document.getElementById("body").style.color = "white";
-      // document.getElementById("mainNav").style.backgroundColor = "black";
-      // document.getElementById("mainNav").classList.add
-      // document.getElementById("mainNav").classList.remove = "navbar-light";
-      // document.getElementById("mainNav").classList.add("navbar-dark");
-      // document.getElementById("header").style.backgroundColor = "black";
-      theme = "night";
-    }
-    else {
-      console.log("changing to day mode");
-      console.log(theme)
-      document.getElementById("theme").src = require("./Images/sun.png")
-      // document.getElementById("body").style.backgroundColor = "white";
-      // document.getElementById("body").style.color = "black";
-      // document.getElementById("mainNav").style.backgroundColor = "white";
-      // document.getElementById("header").style.backgroundColor = "white";
-      // document.getElementById("mainNav").classList.remove = "navbar-dark";
-      // document.getElementById("mainNav").classList.add("navbar-light");
-      bodylist = document.getElementsByClassName("body")
-      for (let index = 0; index < bodylist.length; index++) {
-        const element = bodylist[index];
-        console.log(element)
-        element.style.backgroundColor = "whitesmoke"
-        element.style.color = "black"
-        console.log(element)
-        console.log(element.style.color);
-        document.getElementById("navigation").style.color = "black !important";
-      }
-      theme = "day"
-    };
-  }
+  // function changeTheme() {
+  //   if (theme === "day") {
+  //     console.log("Changed theme run to night");
+  //     document.getElementById("theme").src = require("./Images/moon-icon.png")
+  //     console.log("Hey2")
+  //     console.log("hey")
+  //     var bodylist = document.getElementsByClassName("body")
+  //     for (let index = 0; index < bodylist.length; index++) {
+  //       const element = bodylist[index];
+  //       console.log(element)
+  //       element.style.backgroundColor = "black"
+  //       element.style.color = "whitesmoke"
+  //       document.getElementById("navigation").style.color = "green !important";
+  //     }
+  //     // document.getElementById("body").style.backgroundColor = "black";
+  //     // document.getElementById("body").style.color = "white";
+  //     // document.getElementById("mainNav").style.backgroundColor = "black";
+  //     // document.getElementById("mainNav").classList.add
+  //     // document.getElementById("mainNav").classList.remove = "navbar-light";
+  //     // document.getElementById("mainNav").classList.add("navbar-dark");
+  //     // document.getElementById("header").style.backgroundColor = "black";
+  //     theme = "night";
+  //   }
+  //   else {
+  //     console.log("changing to day mode");
+  //     console.log(theme)
+  //     document.getElementById("theme").src = require("./Images/sun.png")
+  //     // document.getElementById("body").style.backgroundColor = "white";
+  //     // document.getElementById("body").style.color = "black";
+  //     // document.getElementById("mainNav").style.backgroundColor = "white";
+  //     // document.getElementById("header").style.backgroundColor = "white";
+  //     // document.getElementById("mainNav").classList.remove = "navbar-dark";
+  //     // document.getElementById("mainNav").classList.add("navbar-light");
+  //     bodylist = document.getElementsByClassName("body")
+  //     for (let index = 0; index < bodylist.length; index++) {
+  //       const element = bodylist[index];
+  //       console.log(element)
+  //       element.style.backgroundColor = "whitesmoke"
+  //       element.style.color = "black"
+  //       console.log(element)
+  //       console.log(element.style.color);
+  //       document.getElementById("navigation").style.color = "black !important";
+  //     }
+  //     theme = "day"
+  //   };
+  // }
 
 
   return (
@@ -119,7 +119,7 @@ const Navbar = () => {
               alt=""
               width="32px"
               style={{ cursor: "pointer", transition: "all .2s", width: "30px", height: "30px"}}
-            onClick={changeTheme}
+            onClick={props.modeController}
             />
           </div>
         </div>

@@ -1,8 +1,25 @@
 import React from 'react'
 import './CSS/style.css'
 import { FaInstagram,FaLinkedinIn } from 'react-icons/fa'
+import { useEffect } from 'react'
 // import Prince from "./Images/Prince.jpg"
-const About = () => {
+
+
+
+const About = (props) => {
+
+  useEffect(() => {
+    if(props.mode === 'dark'){
+      props.sudoMode()
+    }
+  }, [])
+  
+
+
+
+
+
+
   return (
     <div><>
     {/* ======= Hero Section ======= */}
