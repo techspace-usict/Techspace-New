@@ -8,10 +8,11 @@ const Ecell = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Zenith Ecell</h1>
           <h3>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          Do you also have a start-up idea and don’t know what to do next? Well, you are at the right place. 
+          Entrepreneurship cell is here to help students having variant start-up ideas follow their dream and help them achieve their goals in it. 
+          We aim to inspire students who wish to see a change in this world, a change for the better. We help them get the right investments by organizing fundraising rounds, 
+          various fun competitions, and even workshops to promote the start-up culture among the students. 
+          We help them build their network in the market from campus to incubators, seeding funds, and finally angel investors to transform the idea in their mind into a business.
           </h3>
         </div>
         <div className="img">

@@ -8,11 +8,9 @@ const GDSC = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>GDSC</h1>
           <h3>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
-          </h3>
+           This beautiful club is responsible for conducting multiple events, involving 500+ students from USCIT as well as from other colleges. 
+           Events like the Google cloud campaign, Android Study Jams, and Winter of Code were organized with great zeal and enthusiasm and received an overwhelming response.
+           </h3>
         </div>
         <div className="img">
           <img src={require("./Images/gdsc.png")} width="100vw" alt="" />
@@ -91,9 +89,7 @@ const GDSC = () => {
         <h2 style={{ fontWeight: 550 }}>Himesh Nayak</h2>
         <h5 style={{ fontWeight: "bold" }}>GDSC-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        "Destination is not the purpose of life... The journey is..." ~ Himesh Nayak
         </p>
       </div>
     </section>

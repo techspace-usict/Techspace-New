@@ -8,10 +8,9 @@ const Idroid = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Idroid</h1>
           <h3>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          We, at Idroid help students, develop interactive and fun apps based on their ideas. Well, it is said that here you make apps and we make memories. 
+          Our team works on Flutter, Java, and kotlin. 
+          It creates an ecosystem where you as young developers can enjoy sessions and workshops on Android & iOS development which will help you have depth in your knowledge of additional development.
           </h3>
         </div>
         <div className="img">
@@ -91,9 +90,7 @@ const Idroid = () => {
         <h2 style={{ fontWeight: 550 }}>Abhay Kulshrestha</h2>
         <h5 style={{ fontWeight: "bold" }}>Idroid-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        The way to get started is to quit talking and begin doing.
         </p>
       </div>
     </section>

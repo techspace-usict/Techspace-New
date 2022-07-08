@@ -8,10 +8,9 @@ const CodeSchool = () => {
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Codeschool</h1>
           <h3 className='article'>
-            Coddeschool welcomes you to the world of competitive programming and
-            grow with us. As the situation changes the Competion of getting a job
-            in Google,Microsoft are getting harder we will provide the right
-            platform to beat the challenges.
+          Are you passionate about competitive programming? Code school is the right place for you. Code School is a platform that encourages enthusiastic 
+          coders and provides them with the opportunity to showcase their problem-solving skills. 
+          Not just this it even educates the students on different topics on Data Structures and Algorithms by conducting sessions ranging from basic to advanced levels.
           </h3>
         </div>
         <div className="img">
@@ -91,9 +90,8 @@ const CodeSchool = () => {
         <h2 style={{ fontWeight: 550 }}>Deepanshu Johar</h2>
         <h5 style={{ fontWeight: "bold" }}>Codeschool-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        Alfred Pennyworth : Why do we fall bruce? So that we can learn to pick ourselves up.
+        
         </p>
       </div>
     </section>
