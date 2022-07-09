@@ -84,7 +84,7 @@ function App() {
       document.body.style.color = "white"
       document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('team').style.color = 'white';
-      document.getElementById('myNavTog').style.color = 'white';
+      document.getElementById('myNavTog').style.color = 'white !important';
     }
     console.log(mode);
 
@@ -101,7 +101,7 @@ function App() {
     document.body.style.color = "white"
     document.getElementById('team').style.backgroundColor = 'black';
     document.getElementById('team').style.color = 'white';
-    document.getElementById('myNavTog').style.color = 'white';
+    document.getElementById('myNavTog').style.color = 'white !important';
   }
 
 
