@@ -21,14 +21,14 @@ const Idroid = () => {
         <div className="con">
           <div id="con1" className="image">
             <img
-              src={require("./Images/idroid1.JPG")}
+              src={require("./Images/idroid1.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src={require("./Images/idroid2.JPG")}
+              src={require("./Images/idroid2.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
@@ -49,7 +49,7 @@ const Idroid = () => {
           </div>
           <div id="con5" className="image">
             <img
-              src={require("./Images/idroid5.JPG")}
+              src={require("./Images/idroid5.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
