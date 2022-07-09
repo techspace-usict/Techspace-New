@@ -13,6 +13,8 @@ const Turing = () => {
 
   return (
     <div className='body'>
+    <div>
+
     <section className="mt-5 club-about">
       <div className="content2">
         <div className="para">
@@ -27,7 +29,7 @@ const Turing = () => {
           <img src={require("./Images/Turing.png")} width="100vw" alt="" />
         </div>
       </div>
-      <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
+      <div style={{ width: "90vw", height: "auto", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
@@ -67,6 +69,7 @@ const Turing = () => {
         </div>
       </div>
     </section>
+    </div>
     <h1
       style={{
         margin: "auto",

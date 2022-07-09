@@ -3,6 +3,8 @@ import './Club.css'
 const Idroid = () => {
   return (
     <div className='body'>
+    <div>
+
     <section className="mt-5 club-about">
       <div className="content2">
         <div className="para">
@@ -17,7 +19,7 @@ const Idroid = () => {
           <img src={require("./Images/idroid.png")} width="100vw" alt="" />
         </div>
       </div>
-      <div style={{ width: "90vw", height: "40vw", margin: "auto" }}>
+      <div style={{ width: "90vw", height: "auto", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
@@ -57,6 +59,7 @@ const Idroid = () => {
         </div>
       </div>
     </section>
+    </div>
     <h1
       style={{
         margin: "auto",

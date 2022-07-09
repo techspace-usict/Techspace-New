@@ -16,8 +16,6 @@ import Ecell from './Components/Ecell';
 import Idroid from './Components/Idroid';
 import Turing from './Components/TuringAI';
 import { useState } from 'react';
-import { useEffect } from 'react';
-
 
 
 function App() {

@@ -243,7 +243,7 @@ div.popout .person .desc:first-line {
 
 @media only screen and (max-width:600px) {
   .club-about{
-    height: 100vh;
+    /* height: 100vh; */
   }
   .top-sec{
     height: 112vh;
@@ -256,7 +256,7 @@ div.popout .person .desc:first-line {
     overflow: visible;
   }
   .con{
-    height: 60vh;
+    height: auto;
     grid-template-columns: 50% 50%;
     grid-template-rows: 33% 33% 33% ;
   }
