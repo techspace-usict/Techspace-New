@@ -52,6 +52,7 @@ function App() {
       document.getElementById('root').style.backgroundColor = 'white';
       document.getElementById('root').style.color = 'black';
       document.getElementById('mainNav').style.backgroundColor = 'white';
+      document.getElementById('nav-svg').style.fill="black"
 
       // if "navbar-dark" in document.getElementById('mainNav').classList {
 
@@ -75,6 +76,7 @@ function App() {
       document.getElementById('root').style.backgroundColor = 'black';
       document.getElementById('mainNav').style.backgroundColor = 'black';
       document.getElementById('root').style.color = 'white';
+      document.getElementById('nav-svg').style.fill="white";
       // document.getElementById('mainNav').classList.remove("navbar-light");
       // document.getElementById('mainNav').classList.remove("bg-light");
       // document.getElementById('mainNav').classList.add("navbar-dark");
@@ -85,6 +87,7 @@ function App() {
       document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('team').style.color = 'white';
       document.getElementById('myNavTog').style.color = 'white';
+
     }
     console.log(mode);
 
