@@ -56,3 +56,6 @@ a:focus-visible{
 .card-title {
     min-height:105px !important;
 }
+#root{
+    overflow: hidden !important;
+}
