@@ -3,7 +3,8 @@ import './Club.css'
 const cogitans = () => {
   return (
     <div className='body'>
-    <section className='top-sec mt-5 club-about'>
+    <div>
+    <section className='mt-5 club-about'>
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Cogitans</h1>
@@ -62,6 +63,7 @@ const cogitans = () => {
         </div>
       </div>
     </section>
+    </div>
     <h1 className='club-lead'
       style={{
         margin: "auto",
