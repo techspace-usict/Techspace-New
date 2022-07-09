@@ -264,7 +264,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            className="row row-cols-2 row-cols-md-3 mx-auto"
+            className="row row-cols-2 row-cols-md-3 mx-auto justify-content-center"
             style={{ maxWidth: 900 }}
           >
             <div className="col mb-4">
