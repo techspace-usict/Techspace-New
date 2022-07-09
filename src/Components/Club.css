@@ -242,9 +242,6 @@ div.popout .person .desc:first-line {
 }
 
 @media only screen and (max-width:600px) {
-  .club-about{
-    /* height: 100vh; */
-  }
   .top-sec{
     height: 112vh;
   }
@@ -252,7 +249,7 @@ div.popout .person .desc:first-line {
     flex-direction: column-reverse;
   }
   .papa-con{
-    height: auto;
+    height: auto !important;
     overflow: visible;
   }
   .con{

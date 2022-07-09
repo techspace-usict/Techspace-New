@@ -17,7 +17,7 @@ const Electrotech = () => {
           <img src={require("./Images/electrotech.png")} width="100vw" alt="" />
         </div>
       </div>
-      <div style={{ width: "90vw", height: "auto", margin: "auto" }}>
+      <div className='papa-con' style={{ width: "90vw", height: "40vw", margin: "auto" }}>
         <div className="con">
           <div id="con1" className="image">
             <img
