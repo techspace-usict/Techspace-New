@@ -21,14 +21,14 @@ const Turing = () => {
         <div className="con">
           <div id="con1" className="image">
             <img
-              src={require("./Images/AI1.JPG")}
+              src={require("./Images/AI1.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src={require("./Images/AI2.JPG")}
+              src={require("./Images/AI2.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
@@ -49,7 +49,7 @@ const Turing = () => {
           </div>
           <div id="con5" className="image">
             <img
-              src={require("./Images/AI5.JPG")}
+              src={require("./Images/AI5.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />

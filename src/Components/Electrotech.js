@@ -20,14 +20,14 @@ const Electrotech = () => {
         <div className="con">
           <div id="con1" className="image">
             <img
-              src={require("./Images/electrotech-01.JPG")}
+              src={require("./Images/electrotech-01.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src={require("./Images/electrotech-02.JPG")}
+              src={require("./Images/electrotech-02.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
@@ -48,7 +48,7 @@ const Electrotech = () => {
           </div>
           <div id="con5" className="image">
             <img
-              src={require("./Images/electrotech-05.JPG")}
+              src={require("./Images/electrotech-05.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
