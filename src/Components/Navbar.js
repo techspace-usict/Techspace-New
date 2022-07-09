@@ -4,9 +4,9 @@ import "./CSS/Navbar.css"
 
 const Navbar = (props) => {
 
-  // function scroll2(){
-  //   window.scrollTo(0,5000);
-  // }
+  function scroll2(){
+    window.scrollTo(0,5000);
+  }
 
 
 
@@ -51,7 +51,7 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="#">
+                <Link className="nav-link" to="#" onClick={scroll2}>
                   Contact Us
                 </Link>
               </li>
