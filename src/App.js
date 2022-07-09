@@ -65,6 +65,8 @@ function App() {
       document.getElementById("theme").src = require("./Components/Images/sun.png");
       document.getElementById('team').style.backgroundColor = 'white';
       document.getElementById('team').style.color = 'black';
+      document.getElementById('myNavTog').style.color = 'black';
+
     }
 
     else {
@@ -82,14 +84,14 @@ function App() {
       document.body.style.color = "white"
       document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('team').style.color = 'white';
-
+      document.getElementById('myNavTog').style.color = 'white';
     }
     console.log(mode);
 
 
   }
 
-  const sudoMode = async ()=>{
+  const sudoMode = async () => {
     document.body.style.backgroundColor = "black"
     document.getElementById('root').style.backgroundColor = 'black';
     document.getElementById('mainNav').style.backgroundColor = 'black';
@@ -99,6 +101,7 @@ function App() {
     document.body.style.color = "white"
     document.getElementById('team').style.backgroundColor = 'black';
     document.getElementById('team').style.color = 'white';
+    document.getElementById('myNavTog').style.color = 'white';
   }
 
 

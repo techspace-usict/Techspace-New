@@ -1,6 +1,16 @@
 import React from 'react'
+import { useEffect } from 'react'
 import './Club.css'
+
 const Turing = () => {
+
+  useEffect(() => {
+    
+    // scrollTo(0,
+  }, [])
+  
+
+
   return (
     <div className='body'>
     <section className="mt-5 club-about">

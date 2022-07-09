@@ -6,7 +6,7 @@ import './CSS/Hero.css'
 
 const Home = () => {
   return (
-    <div className='body' style={{width: "100vw",}}>
+    <div className='body' style={{ width: "100vw", }}>
       <header className="py-5 mb-5">
         <div className="container">
           <div className="row">
@@ -21,7 +21,7 @@ const Home = () => {
                     className="btn btn-info shadow"
                     type="submit"
                   >
-                    Subscribe
+                    Join Us
                   </button>
                 </div>
               </div>
@@ -157,7 +157,7 @@ const Home = () => {
                     <div className="card-body text-center px-4 py-5 px-md-5">
                       <p className="fw-bold text-info card-text mb-2">Cogitans</p>
                       <h5 className="fw-bold card-title mb-3">
-                        Cogitans are the Web DEv Commuinty which provides the exact
+                        Cogitans are the Web DEV Commuinty which provides the exact
                         information and the current trends in this world.
                       </h5>
                       <Link to="cogitans">
@@ -197,8 +197,7 @@ const Home = () => {
                         Electrotech
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        Cogitans are the Web DEv Commuinty which provides the exact
-                        information and the current trends in this world.
+                        Have you ever had the question “ What If?”. Electro Tech will help you answer this for most of the situations in your life.
                       </h5>
                       <Link to="electrotech">
                         <button className="btn btn-info btn-sm" type="button">
@@ -239,8 +238,7 @@ const Home = () => {
                         Zenith E-cell
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        Cogitans are the Web DEv Commuinty which provides the exact
-                        information and the current trends in this world.
+                      Do you also have a start-up idea and don’t know what to do next? Well, you are at the right place.
                       </h5>
                       <Link to="ecell">
                         <button className="btn btn-info btn-sm" type="button">
@@ -264,7 +262,7 @@ const Home = () => {
             </div>
           </div>
           <div
-            className="row row-cols-2 row-cols-md-3 mx-auto"
+            className="row row-cols-2 row-cols-md-3 mx-auto justify-content-center"
             style={{ maxWidth: 900 }}
           >
             <div className="col mb-4">
