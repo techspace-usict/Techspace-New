@@ -406,7 +406,7 @@ const Home = () => {
             }}
           >
             <div className="d-flex flex-wrap justify-content-md-start align-items-md-start">
-              <div className="d-flex align-items-center p-3 mx-auto col-md-4">
+              <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                   style={{ backgroundColor: "#6e5494" }}
@@ -427,10 +427,10 @@ const Home = () => {
                   <p className="text-muted mb-0">99684 65876</p>
                 </div>
               </div>
-              <div className="d-flex align-items-center p-3 mx-auto col-md-4">
+              <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
                 <Link to="mailto:techspace@ipu.ac.in">
                   <div
-                    className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
+                    className=" bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                     style={{ backgroundColor: "#6e5494" }}
                   >
                     <svg
@@ -453,7 +453,7 @@ const Home = () => {
                   <p className="text-muted mb-0">Techspace@ipu.ac.in</p>
                 </div>
               </div>
-              <div className="d-flex align-items-center p-3 mx-auto col-md-4">
+              <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                   style={{ backgroundColor: "#6e5494" }}
