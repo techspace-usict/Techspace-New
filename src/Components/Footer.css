@@ -77,3 +77,8 @@ body {
 .footer-16371{
   padding: 1rem !important;
 }
+@media screen and (max-width: 768px) {
+  .footer-16371 .nav-links li {
+    padding: 0px !important;
+  }
+}
