@@ -52,6 +52,15 @@ function App() {
       document.getElementById('root').style.backgroundColor = 'white';
       document.getElementById('root').style.color = 'black';
       document.getElementById('mainNav').style.backgroundColor = 'white';
+
+      // if "navbar-dark" in document.getElementById('mainNav').classList {
+
+      // }
+      // document.getElementById('mainNav').classList.remove("navbar-dark");
+      // document.getElementById('mainNav').classList.remove("bg-dark");
+
+      // document.getElementById('mainNav').classList.add("navbar-light");
+      // document.getElementById('mainNav').classList.add("bg-light");
       document.getElementById('mainNav').style.borderColor = 'rgba(45,45,45,.1)';
       document.getElementById("theme").src = require("./Components/Images/sun.png");
       document.getElementById('team').style.backgroundColor = 'white';
@@ -64,6 +73,10 @@ function App() {
       document.getElementById('root').style.backgroundColor = 'black';
       document.getElementById('mainNav').style.backgroundColor = 'black';
       document.getElementById('root').style.color = 'white';
+      // document.getElementById('mainNav').classList.remove("navbar-light");
+      // document.getElementById('mainNav').classList.remove("bg-light");
+      // document.getElementById('mainNav').classList.add("navbar-dark");
+      // document.getElementById('mainNav').classList.add("bg-dark");
       document.getElementById('mainNav').style.borderColor = '#ffffff2e';
       document.getElementById("theme").src = require("./Components/Images/moon-icon.png")
       document.body.style.color = "white"

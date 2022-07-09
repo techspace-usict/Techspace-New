@@ -4,9 +4,9 @@ import "./CSS/Navbar.css"
 
 const Navbar = (props) => {
 
-  function scroll(){
-    window.scrollTo(0,1000);
-  }
+  // function scroll(){
+  //   window.scrollTo(0,1000);
+  // }
   function scroll2(){
     window.scrollTo(0,5000);
   }
@@ -94,10 +94,9 @@ const Navbar = (props) => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  to="#"
-                  onClick={scroll}
+                  to="/"
                 >
-                  Clubs
+                  Home
                 </Link>
               </li>
               <li className="nav-item">
@@ -118,7 +117,7 @@ const Navbar = (props) => {
               src={require("./Images/sun.png")}
               alt=""
               width="32px"
-              style={{ cursor: "pointer", transition: "all .2s", width: "30px", height: "30px"}}
+              style={{ cursor: "pointer", transition: "all .2s", width: "30px", height: "30px", transition : "all 0.2s"}}
             onClick={props.modeController}
             />
           </div>
