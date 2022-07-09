@@ -42,7 +42,7 @@ const CodeSchool = () => {
           </div>
           <div id="con4" className="image">
             <img
-              src={require("./Images/cogitans-03.jpg")}
+              src={require("./Images/codeshool-03.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />

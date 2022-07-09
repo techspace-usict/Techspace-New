@@ -21,35 +21,35 @@ const Turing = () => {
         <div className="con">
           <div id="con1" className="image">
             <img
-              src={require("./Images/codeschool-01.JPG")}
+              src={require("./Images/AI1.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con2" className="image">
             <img
-              src={require("./Images/codeschool-02.JPG")}
+              src={require("./Images/AI2.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con3" className="image">
             <img
-              src={require("./Images/codeschool-03.jpg")}
+              src={require("./Images/AI3.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con4" className="image">
             <img
-              src={require("./Images/cogitans-03.jpg")}
+              src={require("./Images/AI4.jpg")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
           </div>
           <div id="con5" className="image">
             <img
-              src={require("./Images/registration.JPG")}
+              src={require("./Images/AI5.JPG")}
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
               alt=""
             />
