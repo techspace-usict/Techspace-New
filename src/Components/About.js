@@ -522,10 +522,10 @@ const About = (props) => {
                     alt=""
                   />
                   <div className="social">
-                    <a rel='noreferrer' href="https://www.instagram.com/jayden_397/"  target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/kartikkc397/"  target = "_blank">
                     <FaInstagram />
                     </a>
-                    <a rel='noreferrer' href="https://www.instagram.com/kartikkc397/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/kartik-singh-68bb8b179/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
