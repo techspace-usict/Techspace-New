@@ -95,11 +95,9 @@ const cogitans = () => {
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
         <h2 style={{ fontWeight: 550 }}>Manas</h2>
-        <h5 style={{ fontWeight: "bold" }}>cogitans-Lead</h5>
+        <h5 style={{ fontWeight: "bold" }}>Cogitans-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+        "Push yourself everyday, Because no one is going to do it for you."
         </p>
       </div>
     </section>

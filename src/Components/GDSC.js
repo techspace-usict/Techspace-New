@@ -83,7 +83,7 @@ const GDSC = () => {
             <div className="desc fw-bold">
               Himesh Nayak
               <br />
-              Gdsc-Lead
+              GDSC-Lead
             </div>
           </div>
         </div>

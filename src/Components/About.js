@@ -97,7 +97,7 @@ const About = (props) => {
             <p>What We Aspire</p>
           </div>
           <div className="row" data-aos="fade-up">
-            <div className="col-lg-6">
+            <div className="col-lg-6" style={{width: "70%"}}>
               <p>
                 We aim to provide an environment where students can tinker with
                 ideas, experiment and capitalize on the power of a strong
@@ -114,7 +114,7 @@ const About = (props) => {
                 </li>
               </ul>
             </div>
-            <div className="col-lg-6 pt-4 pt-lg-0">
+            {/* <div className="col-lg-6 pt-4 pt-lg-0">
               <p>
                 Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
                 irure dolor in reprehenderit in voluptate velit esse cillum dolore
@@ -122,7 +122,7 @@ const About = (props) => {
                 proident, sunt in culpa qui officia deserunt mollit anim id est
                 laborum.
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -525,7 +525,7 @@ const About = (props) => {
                     <a rel='noreferrer' href="https://www.instagram.com/jayden_397/"  target = "_blank">
                     <FaInstagram />
                     </a>
-                    <a rel='noreferrer' href="https://www.linkedin.com/in/kartik-singh-68bb8b179/" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/kartikkc397/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>

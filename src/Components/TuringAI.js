@@ -90,9 +90,9 @@ const Turing = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Shivank.png")} />
+            <img alt="Shivank Sapra" src={require("./Images/Shivank.png")} />
             <div className="desc fw-bold">
-            Shivank Sapra
+              Shivank Sapra
               <br />
               Turing AI-Lead
             </div>

@@ -83,7 +83,7 @@ const Electrotech = () => {
             <div className="desc fw-bold">
               Kunnaal
               <br />
-              Cogitans-Lead
+              Electrotech-Lead
             </div>
           </div>
         </div>

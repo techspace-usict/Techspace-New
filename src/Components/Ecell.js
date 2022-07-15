@@ -94,9 +94,7 @@ const Ecell = () => {
         <h2 style={{ fontWeight: 550 }}>Adarsh Dhir</h2>
         <h5 style={{ fontWeight: "bold" }}>Zenith Ecell-Lead</h5>
         <p>
-          I am a first year CSE Undergrad Student, currently learning Mern Stack
-          And The Relate Stuff. Hope You Like The Site And Give Me A Follow At
-          Github 😀
+          The plan that never fails is the one never planned.
         </p>
       </div>
     </section>

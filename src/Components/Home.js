@@ -36,7 +36,7 @@ const Home = () => {
         </div>
       </header>
       <section className="pb-5">
-        <div className="container text-center py-5">
+        <div className="container text-center py-5" style={{paddingRight: "0px", paddingLeft: "0px"}}>
           <p className="mb-4" style={{ fontSize: "1.6rem" }}>
             Having{" "}
             <span className="p-1">
@@ -116,9 +116,7 @@ const Home = () => {
                         Turing AI
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        This Club is for Futurists and kind off tough but
-                        Interesting and learning the new stuff before they came to
-                        the market.
+                      Be it Artificial intelligence or Machine learning, Turing AI has got you.
                       </h5>
                       <Link to="turing">
                         <button className="btn btn-info btn-sm" type="button">
@@ -138,8 +136,7 @@ const Home = () => {
                         Code School
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        Codeschool welcomes you to the world of competitive
-                        programming and grow with us.
+                      Are you passionate about competitive programming? Code school is the right place for you. 
                       </h5>
                       <Link to="codeschool">
                         <button className="btn btn-info btn-sm" type="button">
@@ -157,8 +154,7 @@ const Home = () => {
                     <div className="card-body text-center px-4 py-5 px-md-5">
                       <p className="fw-bold text-info card-text mb-2">Cogitans</p>
                       <h5 className="fw-bold card-title mb-3">
-                        Cogitans are the Web DEV Commuinty which provides the exact
-                        information and the current trends in this world.
+                      Have you ever thought of making your website?
                       </h5>
                       <Link to="cogitans">
                         <button className="btn btn-info btn-sm" type="button">
@@ -174,10 +170,9 @@ const Home = () => {
                     style={{ backgroundColor: "rgba(188, 237, 188, 0.2)" }}
                   >
                     <div className="card-body text-center px-4 py-5 px-md-5">
-                      <p className="fw-bold text-info card-text mb-2">Droid Club</p>
+                      <p className="fw-bold text-info card-text mb-2">Idroid</p>
                       <h5 className="fw-bold card-title mb-3">
-                        This Club is For Android Geeks and who are keen to make
-                        their own Apps and making money by placing it on playstore.
+                      We, at Idroid help students, develop interactive and fun apps based on their ideas. 
                       </h5>
                       <Link to="idroid">
                         <button className="btn btn-info btn-sm" type="button">
@@ -197,7 +192,7 @@ const Home = () => {
                         Electrotech
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        Have you ever had the question “ What If?”. Electro Tech will help you answer this for most of the situations in your life.
+                      We hear will teach you and hone you with skills based on these little things that control us- so-called “ Microcontrollers?”
                       </h5>
                       <Link to="electrotech">
                         <button className="btn btn-info btn-sm" type="button">
@@ -214,11 +209,10 @@ const Home = () => {
                   >
                     <div className="card-body text-center px-4 py-5 px-md-5">
                       <p className="fw-bold text-info card-text mb-2">
-                        Open Source Learning Club
+                        GDSC
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                        This is one of the Best Club which helps you to introduce
-                        the real world of coding.
+                      This beautiful club is responsible for conducting multiple events, involving 500+ students from USCIT as well as from other colleges.
                       </h5>
                       <Link to="gdsc">
                         <button className="btn btn-info btn-sm" type="button">
@@ -386,11 +380,11 @@ const Home = () => {
           </div>
         </div>
       </section>
-      <section className="py-1">
+      <section className="pt-4">
         <div className="container">
           <div className="row mb-5">
             <div className="col-md-8 col-xl-6 text-center mx-auto">
-              <p className="fw-bold text-success mb-2">Contacts</p>
+              {/* <p className="fw-bold text-success mb-2">Contacts</p> */}
               <h2 className="fw-bold">How you can reach us</h2>
             </div>
           </div>
@@ -405,6 +399,7 @@ const Home = () => {
           >
             <div className="d-flex flex-wrap justify-content-md-start align-items-md-start">
               <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
+
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                   style={{ backgroundColor: "#6e5494" }}
@@ -425,8 +420,9 @@ const Home = () => {
                   <p className="text-muted mb-0">99684 65876</p>
                 </div>
               </div>
+              
               <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
-                <Link to="mailto:techspace@ipu.ac.in">
+                <a href="mailto:Techspace@ipu.ac.in">
                   <div
                     className=" bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                     style={{ backgroundColor: "#6e5494" }}
@@ -445,13 +441,15 @@ const Home = () => {
                       ></path>
                     </svg>
                   </div>
-                </Link>
+                </a>
                 <div className="px-2">
                   <h6 className="fw-bold mb-0">Email</h6>
                   <p className="text-muted mb-0">Techspace@ipu.ac.in</p>
                 </div>
               </div>
+
               <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
+                <a  href='https://www.google.com/maps/place/Guru+Gobind+Singh+Indraprastha+University/@28.5949739,77.0171102,17z/data=!3m1!4b1!4m5!3m4!1s0x390d1aafdb891567:0x10d270731c930a87!8m2!3d28.5949739!4d77.0192989' target={"_blank"}>
                 <div
                   className="bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                   style={{ backgroundColor: "#6e5494" }}
@@ -467,6 +465,7 @@ const Home = () => {
                     <path d="M4.146.146A.5.5 0 0 1 4.5 0h7a.5.5 0 0 1 .5.5c0 .68-.342 1.174-.646 1.479-.126.125-.25.224-.354.298v4.431l.078.048c.203.127.476.314.751.555C12.36 7.775 13 8.527 13 9.5a.5.5 0 0 1-.5.5h-4v4.5c0 .276-.224 1.5-.5 1.5s-.5-1.224-.5-1.5V10h-4a.5.5 0 0 1-.5-.5c0-.973.64-1.725 1.17-2.189A5.921 5.921 0 0 1 5 6.708V2.277a2.77 2.77 0 0 1-.354-.298C4.342 1.674 4 1.179 4 .5a.5.5 0 0 1 .146-.354zm1.58 1.408-.002-.001.002.001zm-.002-.001.002.001A.5.5 0 0 1 6 2v5a.5.5 0 0 1-.276.447h-.002l-.012.007-.054.03a4.922 4.922 0 0 0-.827.58c-.318.278-.585.596-.725.936h7.792c-.14-.34-.407-.658-.725-.936a4.915 4.915 0 0 0-.881-.61l-.012-.006h-.002A.5.5 0 0 1 10 7V2a.5.5 0 0 1 .295-.458 1.775 1.775 0 0 0 .351-.271c.08-.08.155-.17.214-.271H5.14c.06.1.133.191.214.271a1.78 1.78 0 0 0 .37.282z"></path>
                   </svg>
                 </div>
+                </a>
                 <div className="px-2">
                   <h6 className="fw-bold mb-0">Location</h6>
                   <p className="text-muted mb-0">
