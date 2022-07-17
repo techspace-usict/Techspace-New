@@ -17,12 +17,29 @@ const Home = () => {
                   <b>LET'S JOIN HANDS</b>
                 </p>
                 <div className="my-2">
-                  <button
+                  {/* <button
                     className="btn btn-info shadow"
                     type="submit"
-                  >
+                    data-bs-toggle="modal"
+                  > */}
+                    {/* Join Us
+                  </button> */}
+                  <button type="button" class="btn btn-info shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Join Us
                   </button>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content" id='myModal'>
+                        <div class="modal-header" >
+                          <h5 class="modal-title" id="exampleModalLabel">Oops...</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Recruitments are not open right now. Stay tuned to hear from us!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -170,7 +187,7 @@ const Home = () => {
                     style={{ backgroundColor: "rgba(188, 237, 188, 0.2)" }}
                   >
                     <div className="card-body text-center px-4 py-5 px-md-5">
-                      <p className="fw-bold text-info card-text mb-2">Idroid</p>
+                      <p className="fw-bold text-info card-text mb-2">iDroid</p>
                       <h5 className="fw-bold card-title mb-3">
                       We, at Idroid help students, develop interactive and fun apps based on their ideas. 
                       </h5>
@@ -212,7 +229,7 @@ const Home = () => {
                         GDSC
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                      This beautiful club is responsible for conducting multiple events, involving 500+ students from USCIT as well as from other colleges.
+                      This beautiful club is responsible for conducting multiple events, involving 500+ students from USICT as well as from other colleges.
                       </h5>
                       <Link to="gdsc">
                         <button className="btn btn-info btn-sm" type="button">

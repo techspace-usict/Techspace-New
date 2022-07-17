@@ -50,6 +50,7 @@ function App() {
       document.getElementById('root').style.backgroundColor = 'white';
       document.getElementById('root').style.color = 'black';
       document.getElementById('mainNav').style.backgroundColor = 'white';
+      // document.getElementById('myModal').style.backgroundColor = 'white';
       document.getElementById('nav-svg').style.fill="black"
 
       // if "navbar-dark" in document.getElementById('mainNav').classList {
@@ -82,9 +83,11 @@ function App() {
       document.getElementById('mainNav').style.borderColor = '#ffffff2e';
       document.getElementById("theme").src = require("./Components/Images/moon-icon.png")
       document.body.style.color = "white"
-      document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('team').style.color = 'white';
+      document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('myNavTog').style.color = 'white';
+      document.getElementById('myModal').classList.add('bg-dark');
+      document.getElementById('myModal').style.background = "gray !important";
 
     }
     console.log(mode);
