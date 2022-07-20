@@ -234,21 +234,21 @@ const About = (props) => {
               <div className="member" data-aos="fade-up">
                 <div className="member-img">
                   <img
-                    src={require("./Images/Himesh.jpg")}
+                    src={require("./Images/Aakash.jpg")}
                     className="img-fluid"
                     alt=""
                   />
                   <div className="social">
-                    <a rel='noreferrer' href="https://instagram.com/himeshnayak.8" target = "_blank">
+                    <a rel='noreferrer' href="https://www.instagram.com/aakzsh/" target = "_blank">
                       <FaInstagram />
                     </a>
-                    <a rel='noreferrer' href="https://linkedin.com/in/himeshnayak015" target = "_blank">
+                    <a rel='noreferrer' href="https://www.linkedin.com/in/aakzsh/" target = "_blank">
                       <FaLinkedinIn />
                     </a>
                   </div>
                 </div>
                 <div className="member-info">
-                  <h4>Himesh Nayak</h4>
+                  <h4>Aakash Shrivastava</h4>
                   <span>GDSC Lead</span>
                 </div>
               </div>
