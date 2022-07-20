@@ -31,11 +31,11 @@ const Home = () => {
                     <div class="modal-dialog">
                       <div class="modal-content" id='myModal'>
                         <div class="modal-header" >
-                          <h5 class="modal-title" id="exampleModalLabel">Oops...</h5>
+                          {/* <h5 class="modal-title" id="exampleModalLabel">Oops...</h5> */}
                           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
                         <div class="modal-body">
                           Recruitments are not open right now. Stay tuned to hear from us!
+                        </div>
                         </div>
                       </div>
                     </div>

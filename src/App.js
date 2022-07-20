@@ -86,8 +86,8 @@ function App() {
       document.getElementById('team').style.color = 'white';
       document.getElementById('team').style.backgroundColor = 'black';
       document.getElementById('myNavTog').style.color = 'white';
-      document.getElementById('myModal').classList.add('bg-dark');
-      document.getElementById('myModal').style.background = "gray !important";
+      document.getElementById('myModal').classList.add('dark-bg');
+      // document.getElementById('myModal').style.background = "black !important";
 
     }
     console.log(mode);

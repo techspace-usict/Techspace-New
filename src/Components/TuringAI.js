@@ -12,7 +12,7 @@ const Turing = () => {
 
 
   return (
-    <div className='body'>
+    <div className='body' onLoad={window.scroll({top: 0, behaviour: "auto"})}>
     <div>
 
     <section className="mt-5 club-about">

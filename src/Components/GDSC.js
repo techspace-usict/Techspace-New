@@ -2,7 +2,7 @@ import React from 'react'
 import './Club.css'
 const GDSC = () => {
   return (
-    <div className='body'>
+    <div className='body' onLoad={window.scroll({top: 0, behaviour: "auto"})}>
     <div>
 
     <section className="mt-5 club-about">
@@ -79,9 +79,9 @@ const GDSC = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Himesh Nayak" src={require("./Images/Himesh.png")} />
+            <img alt="Akash Srivastava" src={require("./Images/Akash.png")} />
             <div className="desc fw-bold">
-              Himesh Nayak
+              Aakash Shrivastava
               <br />
               GDSC-Lead
             </div>
@@ -89,10 +89,10 @@ const GDSC = () => {
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Himesh Nayak</h2>
+        <h2 style={{ fontWeight: 550 }}>Aakash Shrivastava</h2>
         <h5 style={{ fontWeight: "bold" }}>GDSC-Lead</h5>
         <p>
-        "Destination is not the purpose of life... The journey is..." ~ Himesh Nayak
+        "If there's something I want, I'll take all the right wrongs" ~ Aakash Shrivastava
         </p>
       </div>
     </section>

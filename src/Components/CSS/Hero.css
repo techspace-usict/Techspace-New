@@ -59,3 +59,12 @@ a:focus-visible{
 #root{
     overflow: hidden !important;
 }
+
+#myModal{
+    background-color: rgb(237, 237, 237);
+    color: black !important;
+}
+
+.modal-header{
+    border-bottom: 0px !important;
+}

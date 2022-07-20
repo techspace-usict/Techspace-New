@@ -2,7 +2,7 @@ import React from 'react'
 import './Club.css'
 const CodeSchool = () => {
   return (
-    <div className='body'>
+    <div className='body' onLoad={window.scroll({top: 0, behaviour: "auto"})}>
     <section className='mt-5 club-about'>
       <div className="content2">
         <div className="para">
