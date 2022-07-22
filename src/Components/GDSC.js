@@ -79,7 +79,7 @@ const GDSC = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Akash Srivastava" src={require("./Images/Akash.png")} style={{marginTop: "3vh"}} />
+            <img alt="Akash Srivastava" src={require("./Images/amkashh.png")} style={{marginTop: "3vh"}} />
             <div className="desc fw-bold">
               Aakash Shrivastava
               <br />

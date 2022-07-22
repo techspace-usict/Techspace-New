@@ -41,7 +41,7 @@ const About = (props) => {
             </h2>
             <p className="animate__animated fanimate__adeInUp">
               Techspace is the “Of the students, By the students, For the
-              students” technical society of USICT that works towards promoting
+              students” technical society of USICT that work towards promoting
               discussion, creative collaboration, research and skill development.
             </p>
             <a rel='noreferrer'
