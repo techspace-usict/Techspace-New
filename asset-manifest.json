@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Techspace-New/static/css/main.9f5dc4fd.css",
-    "main.js": "/Techspace-New/static/js/main.840d7b9d.js",
+    "main.js": "/Techspace-New/static/js/main.ae16bfc5.js",
     "static/js/787.d3befce1.chunk.js": "/Techspace-New/static/js/787.d3befce1.chunk.js",
     "static/media/Adarsh.png": "/Techspace-New/static/media/Adarsh.6ee6bb19cba94cfed97c.png",
     "static/media/codeschool-01.JPG": "/Techspace-New/static/media/codeschool-01.baa58739cc2f72871e9d.JPG",
@@ -31,6 +31,7 @@
     "static/media/Infox-07.jpg": "/Techspace-New/static/media/Infox-07.918827285c415b605a9c.jpg",
     "static/media/Aakash.jpg": "/Techspace-New/static/media/Aakash.8979eb0be22c142b5d77.jpg",
     "static/media/registration.JPG": "/Techspace-New/static/media/registration.89d9a55f208b9901e11f.JPG",
+    "static/media/amkashh.png": "/Techspace-New/static/media/amkashh.b6d87b2abe01984d4ebd.png",
     "static/media/Deepanshu.png": "/Techspace-New/static/media/Deepanshu.82e4cef629168d254684.png",
     "static/media/Abhay.png": "/Techspace-New/static/media/Abhay.f4b5302b417692440e2b.png",
     "static/media/Shivank.png": "/Techspace-New/static/media/Shivank.b980b2577f640a8792e7.png",
@@ -40,12 +41,11 @@
     "static/media/electrotech.png": "/Techspace-New/static/media/electrotech.7ea0f93237da342c5607.png",
     "static/media/dhruv.jpg": "/Techspace-New/static/media/dhruv.406761506c8dacd2bbb1.jpg",
     "static/media/Deepanshu.jpeg": "/Techspace-New/static/media/Deepanshu.1a9b2d46b2b8e6f7f2fc.jpeg",
+    "static/media/Gurjot.jpg": "/Techspace-New/static/media/Gurjot.41b710c032a7b8c3771a.jpg",
     "static/media/main_page.jpg": "/Techspace-New/static/media/main_page.b51d903020b9182b512a.jpg",
     "static/media/idroid3.jpg": "/Techspace-New/static/media/idroid3.fab568755560d3157438.jpg",
     "static/media/logo.png": "/Techspace-New/static/media/logo.09b4942d06aeca590709.png",
     "static/media/Ayus.jpeg": "/Techspace-New/static/media/Ayus.8b3c7af6f6811bbc2565.jpeg",
-    "static/media/Akash.png": "/Techspace-New/static/media/Akash.e1505c619adb8f29f76c.png",
-    "static/media/Gurjot.jpg": "/Techspace-New/static/media/Gurjot.8757a321907030e1a6e0.jpg",
     "static/media/ecell.png": "/Techspace-New/static/media/ecell.464fee5324a93f0f47c2.png",
     "static/media/idroid2.jpg": "/Techspace-New/static/media/idroid2.6e6eb9500755a1b71abd.jpg",
     "static/media/idroid.png": "/Techspace-New/static/media/idroid.4f1813bc0495982f4d75.png",
@@ -65,11 +65,11 @@
     "static/media/chakresh.jpeg": "/Techspace-New/static/media/chakresh.539d36e9c16e5638ca01.jpeg",
     "index.html": "/Techspace-New/index.html",
     "main.9f5dc4fd.css.map": "/Techspace-New/static/css/main.9f5dc4fd.css.map",
-    "main.840d7b9d.js.map": "/Techspace-New/static/js/main.840d7b9d.js.map",
+    "main.ae16bfc5.js.map": "/Techspace-New/static/js/main.ae16bfc5.js.map",
     "787.d3befce1.chunk.js.map": "/Techspace-New/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f5dc4fd.css",
-    "static/js/main.840d7b9d.js"
+    "static/js/main.ae16bfc5.js"
   ]
 }
