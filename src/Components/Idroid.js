@@ -8,9 +8,9 @@ const Idroid = () => {
     <section className="mt-5 club-about">
       <div className="content2">
         <div className="para">
-          <h1 style={{ fontWeight: "bold" }}>Idroid</h1>
+          <h1 style={{ fontWeight: "bold" }}>iDroid</h1>
           <h3>
-          We, at Idroid help students, develop interactive and fun apps based on their ideas. Well, it is said that here you make apps and we make memories. 
+          We, at iDroid help students, develop interactive and fun apps based on their ideas. Well, it is said that here you make apps and we make memories. 
           Our team works on Flutter, Java, and kotlin. 
           It creates an ecosystem where you as young developers can enjoy sessions and workshops on Android & iOS development which will help you have depth in your knowledge of additional development.
           </h3>
@@ -84,14 +84,14 @@ const Idroid = () => {
             <div className="desc fw-bold">
             Abhay Kulshrestha
               <br />
-              Idroid-Lead
+              iDroid-Lead
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
         <h2 style={{ fontWeight: 550 }}>Abhay Kulshrestha</h2>
-        <h5 style={{ fontWeight: "bold" }}>Idroid-Lead</h5>
+        <h5 style={{ fontWeight: "bold" }}>iDroid-Lead</h5>
         <p>
         The way to get started is to quit talking and begin doing.
         </p>

@@ -189,7 +189,7 @@ const Home = () => {
                     <div className="card-body text-center px-4 py-5 px-md-5">
                       <p className="fw-bold text-info card-text mb-2">iDroid</p>
                       <h5 className="fw-bold card-title mb-3">
-                      We, at Idroid help students, develop interactive and fun apps based on their ideas. 
+                      We, at iDroid help students develop interactive and fun apps based on their ideas. 
                       </h5>
                       <Link to="idroid">
                         <button className="btn btn-info btn-sm" type="button">
@@ -209,7 +209,7 @@ const Home = () => {
                         Electrotech
                       </p>
                       <h5 className="fw-bold card-title mb-3">
-                      We hear will teach you and hone you with skills based on these little things that control us- so-called “ Microcontrollers?”
+                      We here will teach you and hone you with skills based on these little things that control us:- so-called “Microcontrollers”.
                       </h5>
                       <Link to="electrotech">
                         <button className="btn btn-info btn-sm" type="button">
@@ -434,12 +434,12 @@ const Home = () => {
                 </div>
                 <div className="px-2 ">
                   <h6 className="fw-bold mb-0">Phone</h6>
-                  <p className="text-muted mb-0">99684 65876</p>
+                  <p className="text-muted mb-0">99XX XXXXX</p>
                 </div>
               </div>
               
               <div className="contact d-flex align-items-center p-3 mx-auto col-md-4">
-                <a href="mailto:Techspace@ipu.ac.in">
+                <a href="mailto:techspace@ipu.ac.in">
                   <div
                     className=" bs-icon-md bs-icon-circle shadow d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block bs-icon bs-icon-md"
                     style={{ backgroundColor: "#6e5494" }}
@@ -461,7 +461,7 @@ const Home = () => {
                 </a>
                 <div className="px-2">
                   <h6 className="fw-bold mb-0">Email</h6>
-                  <p className="text-muted mb-0">Techspace@ipu.ac.in</p>
+                  <p className="text-muted mb-0">techspace@ipu.ac.in</p>
                 </div>
               </div>
 
