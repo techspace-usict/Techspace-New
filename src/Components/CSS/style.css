@@ -925,8 +925,11 @@ h1, h2, h3, h4, h5, h6 {
   box-shadow: 0px 0px 15px 8px rgba(0, 0, 0, 0.1);
 }
 .team .member .member-img {
-  position: relative;
+  /* position: relative; */
   overflow: hidden;
+  width: 30vh !important;
+  height: 30vh !important;
+  object-fit: cover !important;
 }
 .team .member .social {
   position: absolute;
@@ -940,7 +943,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 .contributor-card{
-  height: 58vh;
+  /* height: 58vh; */
 }
 .team .member .social a {
   transition: color 0.3s;

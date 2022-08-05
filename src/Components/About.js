@@ -140,7 +140,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/vivek.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -163,7 +163,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/ridhi.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                     style={{
                       height: "44vh !important",
@@ -187,7 +187,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/kartik.JPG")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -207,7 +207,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/prince.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -235,7 +235,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Aakash.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -258,7 +258,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Manas.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -281,7 +281,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Abhay.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -304,7 +304,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/kunaal.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -329,7 +329,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Shivank.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -352,7 +352,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Deepanshu.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -375,7 +375,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Adarsh.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -403,7 +403,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Aakash.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -426,7 +426,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Ayus.jpeg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -449,7 +449,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/dhruv.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -472,7 +472,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Divyansh.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -495,7 +495,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/Gurjot.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">
@@ -518,7 +518,7 @@ const About = (props) => {
                 <div className="member-img">
                   <img
                     src={require("./Images/jayden.jpg")}
-                    className="img-fluid"
+                    className="member-img"
                     alt=""
                   />
                   <div className="social">

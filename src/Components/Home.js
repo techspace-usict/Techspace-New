@@ -286,7 +286,7 @@ const Home = () => {
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Mr. Praveen Chandra</strong>
+                  <strong>Dr. Praveen Chandra</strong>
                 </h5>
                 <p className="text-muted mb-2">Chairperson</p>
               </div>
@@ -301,7 +301,7 @@ const Home = () => {
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Mr. Shiv Ram Meena</strong>
+                  <strong>Dr. Shiv Ram Meena</strong>
                 </h5>
                 <p className="text-muted mb-2">Chief Faculty Advisor</p>
               </div>
@@ -316,7 +316,7 @@ const Home = () => {
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Mr. Chakresh Kumar</strong>
+                  <strong>Dr. Chakresh Kumar</strong>
                 </h5>
                 <p className="text-muted mb-2">Faculty Advisor</p>
               </div>
