@@ -24,9 +24,14 @@ const Home = () => {
                   > */}
                     {/* Join Us
                   </button> */}
-                  <button type="button" class="btn btn-info shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  {/* <button type="button" class="btn btn-info shadow" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Join Us
+                  </button> */}
+                  <a href="https://forms.gle/JesetsSR5NF4TXXd8" target="_blank">
+                  <button type="button" class="btn btn-info shadow">
                     Join Us
                   </button>
+                  </a>
                   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                     <div class="modal-dialog">
                       <div class="modal-content" id='myModal'>
