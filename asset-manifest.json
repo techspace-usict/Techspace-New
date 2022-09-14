@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Techspace-New/static/css/main.9f5dc4fd.css",
-    "main.js": "/Techspace-New/static/js/main.ae16bfc5.js",
+    "main.css": "/Techspace-New/static/css/main.d903a71e.css",
+    "main.js": "/Techspace-New/static/js/main.5a8b0b4a.js",
     "static/js/787.d3befce1.chunk.js": "/Techspace-New/static/js/787.d3befce1.chunk.js",
     "static/media/Adarsh.png": "/Techspace-New/static/media/Adarsh.6ee6bb19cba94cfed97c.png",
     "static/media/codeschool-01.JPG": "/Techspace-New/static/media/codeschool-01.baa58739cc2f72871e9d.JPG",
@@ -64,12 +64,12 @@
     "static/media/gdsc.png": "/Techspace-New/static/media/gdsc.7016b5aff4591d53e479.png",
     "static/media/chakresh.jpeg": "/Techspace-New/static/media/chakresh.539d36e9c16e5638ca01.jpeg",
     "index.html": "/Techspace-New/index.html",
-    "main.9f5dc4fd.css.map": "/Techspace-New/static/css/main.9f5dc4fd.css.map",
-    "main.ae16bfc5.js.map": "/Techspace-New/static/js/main.ae16bfc5.js.map",
+    "main.d903a71e.css.map": "/Techspace-New/static/css/main.d903a71e.css.map",
+    "main.5a8b0b4a.js.map": "/Techspace-New/static/js/main.5a8b0b4a.js.map",
     "787.d3befce1.chunk.js.map": "/Techspace-New/static/js/787.d3befce1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f5dc4fd.css",
-    "static/js/main.ae16bfc5.js"
+    "static/css/main.d903a71e.css",
+    "static/js/main.5a8b0b4a.js"
   ]
 }
