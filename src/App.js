@@ -6,6 +6,7 @@ import CodeSchool from './Components/CodeSchool';
 import Cogitans from './Components/Cogitans';
 import Electrotech from './Components/Electrotech';
 import About from './Components/About';
+import Team from './Components/Team';
 import {
   HashRouter as Router,
   Switch,
@@ -125,6 +126,7 @@ function App() {
         <Route exact path='/idroid'><Idroid /></Route>
         <Route exact path='/gdsc'><GDSC /></Route>
         <Route exact path='/about'><About sudoMode={sudoMode} mode={mode} /></Route>
+        <Route exact path='/team'><Team sudoMode={sudoMode} mode={mode} /></Route>
       </Switch>
       <Footer />
     </Router>

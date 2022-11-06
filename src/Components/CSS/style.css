@@ -932,10 +932,11 @@ h1, h2, h3, h4, h5, h6 {
   object-fit: cover !important;
 }
 .team .member .social {
-  position: absolute;
+  position: relative;
   left: 0;
-  bottom: 30px;
+  bottom: 44px;
   right: 0;
+  /* top: 100px; */
   opacity: 0;
   transition: ease-in-out 0.3s;
   display: flex;
@@ -988,7 +989,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .team .member:hover .social {
   opacity: 1;
-  bottom: 15px;
+  bottom: 45px;
 }
 
 /*--------------------------------------------------------------

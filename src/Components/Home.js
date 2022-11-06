@@ -49,7 +49,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6 mb-4 myconatiner">
-              <div className="p-5 mx-lg-5">
+              <div className="py-5 mx-lg-5">
                 <img className="rounded shadow fit-cover heroImage" src={require("./Images/main_page.jpg")} alt='' />
               </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
           <p className="mb-4" style={{ fontSize: "1.6rem" }}>
             Having{" "}
             <span className="p-1">
-              <strong>7</strong>
+              <strong>6</strong>
             </span>
             &nbsp;societies under our umbrella.
           </p>
@@ -94,13 +94,13 @@ const Home = () => {
               alt=''
             />
           </Link>
-          <Link to="/">
+          {/* <Link to="/">
             <img
               className="m-3 clubImg"
               src={require("./Images/gdsc.png")}
               alt=''
             />
-          </Link>
+          </Link> */}
           <Link to="/">
             <img
               className="m-3 clubImg"
@@ -224,7 +224,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col mb-4">
+                {/* <div className="col mb-4">
                   <div
                     className="card card-2"
                     style={{ backgroundColor: "rgba(255, 131, 255, 0.207)" }}
@@ -243,7 +243,7 @@ const Home = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col mb-4">
                   <div
                     className="card card-2"
