@@ -930,6 +930,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 10px;
   background: #fff;
   box-shadow: 0px 0px 2px ;
+  width: 12.1rem;
 }
 
 .team .member .individual{
@@ -944,7 +945,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   width: 100% !important;                           /* width adjustments for lead images */
   height: 30vh !important;
-  object-fit: cover !important;
+  object-fit: fill !important;
 }
 .team .member .social {
   position: relative;
@@ -983,7 +984,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 .team .member .member-info {
   padding: 25px 10px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
 }
 .team .member .member-info .memberName {
   font-style: normal;
@@ -995,11 +999,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .memberName{
   font-weight: 700;
+  width: 10rem;
+  text-align: center;
 }
 
-/* .team .member .member-info .designation{
-
-} */
+.team .member .member-info .designation{
+  width: 10rem;
+  text-align: center;
+}
 
 .team .member .member-info span {
   display: block;
@@ -1017,6 +1024,29 @@ h1, h2, h3, h4, h5, h6 {
 .team .member:hover .social {
   opacity: 1;
   bottom: 45px;
+}
+
+
+/*--------------------------------------------------------------
+# Gallery
+--------------------------------------------------------------*/
+
+.gallery{
+  height: 60vh;
+  /* object-fit: contain; */
+}
+
+.gallery .imageC{
+  height: 60vh;
+  object-fit: cover;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.imageZ{
+  height: fit-content !important;
+
 }
 
 /*--------------------------------------------------------------

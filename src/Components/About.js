@@ -2,6 +2,7 @@ import React from 'react'
 import './CSS/style.css'
 import { FaInstagram,FaLinkedinIn } from 'react-icons/fa'
 import { useEffect } from 'react'
+import Carousel from 'react-bootstrap/Carousel';
 // import Prince from "./Images/Prince.jpg"
 
 
@@ -127,40 +128,58 @@ const About = (props) => {
         </div>
       </section>
       {/* End About Section */}
+      </main>
+    {/* End #main */}
       
       {/* Gallery section */}
 
-      <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
-          <ol className="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          </ol>
-      <div className="carousel-inner">
-        <div className="carousel-item active">
-          <img className="d-block w-100" src="..." alt="First slide"/>
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src="..." alt="Second slide"/>
-        </div>
-        <div className="carousel-item">
-          <img className="d-block w-100" src="..." alt="Third slide"/>
-        </div>
-      </div>
-      <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span className="sr-only">Previous</span>
-      </a>
-      <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-        <span className="sr-only">Next</span>
-      </a>
-    </div>
+
+    <Carousel className = "gallery" variant="dark">
+      <Carousel.Item className = "image" >
+        <img
+          className="d-block w-100 imageC"
+          src={require("./Images/Ayus.jpeg")}
+          alt="First slide"
+          style={{backgroundImage: require("./Images/Ayus.jpeg")}}
+
+        />
+        <Carousel.Caption>
+          <h3>First slide label</h3>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className = "imageC">
+        <img
+          className="d-block w-100"
+          src={require("./Images/kartik.JPG")}
+          alt="Second slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Second slide label</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item className = "imageC">
+        <img
+          className="d-block w-100"
+          src="holder.js/800x400?text=Third slide&bg=20232a"
+          alt="Third slide"
+        />
+
+        <Carousel.Caption>
+          <h3>Third slide label</h3>
+          <p>
+            Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+
 
       {/* End Gallery Section */}
 
-    </main>
-    {/* End #main */}
+    
   </>
   </div>
   )
