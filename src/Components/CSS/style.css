@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   color: #444444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -1031,23 +1031,18 @@ h1, h2, h3, h4, h5, h6 {
 # Gallery
 --------------------------------------------------------------*/
 
-.gallery{
+
+.carousel{
   height: 60vh;
-  /* object-fit: contain; */
+  /* margin: 10%; */
+  border-radius: 17px;
+  /* box-shadow: 0 0 10px !important; */
 }
 
-.gallery .imageC{
-  height: 60vh;
-  object-fit: cover;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
+.carouselFrame{
+  padding: 0 10%;
 }
 
-.imageZ{
-  height: fit-content !important;
-
-}
 
 /*--------------------------------------------------------------
 # Contact

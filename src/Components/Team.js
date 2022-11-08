@@ -33,14 +33,14 @@ const Team = (props) => {
                       <div className="social">
                         <a
                           rel="noreferrer"
-                          href="https://www.instagram.com/vivekkbhatia/"
+                          href="https://www.instagram.com/cashlessjash/"
                           target="_blank"
                         >
                           <FaInstagram />
                         </a>
                         <a
                           rel="noreferrer"
-                          href="https://www.linkedin.com/in/vivek-bhatia-33484217a/"
+                          href="https://www.linkedin.com/in/jatin-singh04/"
                           target="_blank"
                         >
                           <FaLinkedinIn />
@@ -261,7 +261,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -276,7 +276,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Tanya Aggarwal</p>
@@ -293,11 +293,11 @@ const Team = (props) => {
                     >
                       <div className="member-img">
                         <img
-                          src={require("./Images/Manas.jpg")}
+                          src={require("./Images/JatinDrall.png")}
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -312,7 +312,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -338,11 +338,11 @@ const Team = (props) => {
                     >
                       <div className="member-img">
                         <img
-                          src={require("./Images/Manas.jpg")}
+                          src={require("./Images/siddarth.jpeg")}
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -357,7 +357,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Siddharth</p>
@@ -418,7 +418,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -433,7 +433,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Sonu Singla</p>
@@ -499,7 +499,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -514,7 +514,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Tarun</p>
@@ -535,7 +535,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -550,7 +550,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -571,11 +571,11 @@ const Team = (props) => {
                     >
                       <div className="member-img">
                         <img
-                          src={require("./Images/Manas.jpg")}
+                          src={require("./Images/Gaganish.jpeg")}
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -590,7 +590,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Gaganish Yadav</p>
@@ -676,7 +676,7 @@ const Team = (props) => {
                           </a>
                           <a
                             rel="noreferrer"
-                            href="https://www.linkedin.com/in/manas-arora-274b681b1"
+                            href="https://www.linkedin.com/in/divyansh04/"
                             target="_blank"
                           >
                             <FaLinkedinIn />
@@ -702,7 +702,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -717,7 +717,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -742,7 +742,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -757,7 +757,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Harshita Kohli</p>
@@ -774,11 +774,11 @@ const Team = (props) => {
                     >
                       <div className="member-img">
                         <img
-                          src={require("./Images/Manas.jpg")}
+                          src={require("./Images/Aryaman.png")}
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -793,7 +793,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -862,13 +862,13 @@ const Team = (props) => {
                           alt=""
                         />
                         <div className="social">
-                          <a
+                          {/* <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
                             target="_blank"
                           >
                             <FaInstagram />
-                          </a>
+                          </a> */}
                           <a
                             rel="noreferrer"
                             href="https://www.linkedin.com/in/utkarsh-rai-943777224"
@@ -901,7 +901,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -916,7 +916,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Harshit Mittal</p>
@@ -937,7 +937,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -952,7 +952,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -983,7 +983,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/ayush__baliyan/"
@@ -998,7 +998,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         <p className="memberName">Yusuf Khan</p>
@@ -1019,7 +1019,7 @@ const Team = (props) => {
                           className="member-img"
                           alt=""
                         />
-                        <div className="social">
+                        {/* <div className="social">
                           <a
                             rel="noreferrer"
                             href="https://www.instagram.com/manas_arora_04/"
@@ -1034,7 +1034,7 @@ const Team = (props) => {
                           >
                             <FaLinkedinIn />
                           </a>
-                        </div>
+                        </div> */}
                       </div>
                       <div className="member-info">
                         {/* <h4 className="d-flex justify-content-center">Manas</h4>
@@ -1170,14 +1170,14 @@ const Team = (props) => {
                       <div className="social">
                         <a
                           rel="noreferrer"
-                          href="https://www.instagram.com/_divi2.0/"
+                          href="https://www.instagram.com/divy_3021/"
                           target="_blank"
                         >
                           <FaInstagram />
                         </a>
                         <a
                           rel="noreferrer"
-                          href="https://www.linkedin.com/in/divyansh-787533211/"
+                          href="https://www.linkedin.com/in/divyansh04/"
                           target="_blank"
                         >
                           <FaLinkedinIn />
@@ -1293,6 +1293,26 @@ const Team = (props) => {
                     <div className="member-info">
                       <p className="d-flex justify-content-center memberName">
                         Aditya Warvadekar
+                      </p>
+                      <p className="d-flex justify-content-center designation">
+                        Web Developer
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-3 col-md-6 d-flex align-items-stretch justify-content-center ">
+                  <div className="member contributor-card" data-aos="fade-up">
+                    <div className="member-img">
+                      <img
+                        src={require("./Images/Deeba.png")}
+                        className="individual"
+                        alt=""
+                      />
+                      
+                    </div>
+                    <div className="member-info">
+                      <p className="d-flex justify-content-center memberName">
+                        Deeba Anwar Khan
                       </p>
                       <p className="d-flex justify-content-center designation">
                         Web Developer

@@ -19,7 +19,7 @@ const Turing = () => {
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Turing AI</h1>
-          <h3>
+          <h3 className='my-4'>
           Be it Artificial intelligence or Machine learning, Turing AI has got you. From interactive learning sessions to developing projects, it has got all. 
           Various domains like Computer vision, natural language, etc., from basic to advanced are covered and are made so interesting that even the one with zero interest 
           in coding might learn a thing or two.
@@ -81,7 +81,7 @@ const Turing = () => {
         width: "15%"
       }}
     >
-      Club lead
+      Club Secretaries
     </h1>
     <section className="aboutt">
       <div className="about-image">
@@ -90,23 +90,39 @@ const Turing = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Shivank Sapra" src={require("./Images/Shivank.png")} />
+            <img alt="Shivank Sapra" src={require("./Images/Gaganish-bg.png")} />
             <div className="desc fw-bold">
-              Shivank Sapra
+              Gaganish Yadav
               <br />
-              Turing AI-Lead
+              General Secretary
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Shivank Sapra</h2>
-        <h5 style={{ fontWeight: "bold" }}>Turing AI-Lead</h5>
-        <p>
-        "Technology will never replace great teachers but technology in the hands of great teachers is transformational."
-
-         -- George Couras
-        </p>
+        <h2 style={{ fontWeight: 550 }}>Gaganish Yadav</h2>
+        <h5 style={{ fontWeight: "bold" }}>General Secretary</h5>
+        
+      </div>
+      <div className="about-image">
+        <div className="popout">
+          <div className="circle">
+            <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
+          </div>
+          <div className="person">
+            <img alt="Shivank Sapra" src={require("./Images/Shubham-bg.png")} />
+            <div className="desc fw-bold">
+              Shubham Draveria
+              <br />
+              Joint Secretary
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="aboutme" style={{ marginTop: "4vh" }}>
+        <h2 style={{ fontWeight: 550 }}>Shubham Draveria</h2>
+        <h5 style={{ fontWeight: "bold" }}>Joint Secretary</h5>
+        
       </div>
     </section>
   </div>

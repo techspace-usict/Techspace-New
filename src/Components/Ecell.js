@@ -8,8 +8,8 @@ const Ecell = () => {
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Zenith Ecell</h1>
-          <h3>
-          Do you also have a start-up idea and don’t know what to do next? Well, you are at the right place. 
+          <h3 className="my-4">
+          Do you also have a start-up idea and don't know what to do next? Well, you are at the right place. 
           Entrepreneurship cell is here to help students having variant start-up ideas follow their dream and help them achieve their goals in it. 
           We aim to inspire students who wish to see a change in this world, a change for the better. We help them get the right investments by organizing fundraising rounds, 
           various fun competitions, and even workshops to promote the start-up culture among the students. 
@@ -72,7 +72,7 @@ const Ecell = () => {
         width: "15%"
       }}
     >
-      Club lead
+      Club Secretaries
     </h1>
     <section className="aboutt">
       <div className="about-image">
@@ -81,21 +81,39 @@ const Ecell = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Adarsh.png")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Tanya-bg.png")} />
             <div className="desc fw-bold">
-              Adarsh Dhir
+              Tanya Aggarwal
               <br />
-              Ecell-Lead
+              General Secretary
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Adarsh Dhir</h2>
-        <h5 style={{ fontWeight: "bold" }}>Zenith Ecell-Lead</h5>
-        <p>
-          The plan that never fails is the one never planned.
-        </p>
+        <h2 style={{ fontWeight: 550 }}>Tanya Aggarwal</h2>
+        <h5 style={{ fontWeight: "bold" }}>General Secretary</h5>
+      
+      </div>
+      <div className="about-image">
+        <div className="popout">
+          <div className="circle">
+            <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
+          </div>
+          <div className="person">
+            <img alt="Deepanshu Johar" src={require("./Images/Jd-bg.png")} />
+            <div className="desc fw-bold">
+              Jatin Drall
+              <br />
+              Joint Secretary
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="aboutme" style={{ marginTop: "4vh" }}>
+        <h2 style={{ fontWeight: 550 }}>Jatin Drall</h2>
+        <h5 style={{ fontWeight: "bold" }}>Joint Secretary</h5>
+      
       </div>
     </section>
   </div>
