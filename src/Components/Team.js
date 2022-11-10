@@ -293,7 +293,7 @@ const Team = (props) => {
                     >
                       <div className="member-img">
                         <img
-                          src={require("./Images/JatinDrall.png")}
+                          src={require("./Images/JatinDrall.jpeg")}
                           className="member-img"
                           alt=""
                         />
