@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 * {
   /* background-color: whitesmoke; */
-  font-family: Inter;
+  font-family: Montserrat;
   margin: 0px;
   padding: 0px;
 }
@@ -288,6 +289,7 @@ div.popout .person .desc:first-line {
     display: flex;
     align-items: center;
     justify-content: center;
+    
   }
   .img img{
     display: flex;

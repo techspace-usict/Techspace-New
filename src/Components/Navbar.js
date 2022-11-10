@@ -51,6 +51,11 @@ const Navbar = (props) => {
                 </Link>
               </li>
               <li className="nav-item">
+                <Link className="nav-link" to="/team">
+                  Meet The Team
+                </Link>
+              </li>
+              <li className="nav-item">
                 <Link className="nav-link" to="#" onClick={scroll2}>
                   Contact Us
                 </Link>

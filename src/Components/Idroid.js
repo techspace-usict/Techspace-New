@@ -9,7 +9,7 @@ const Idroid = () => {
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>iDroid</h1>
-          <h3>
+          <h3 class="my-4">
           We, at iDroid help students, develop interactive and fun apps based on their ideas. Well, it is said that here you make apps and we make memories. 
           Our team works on Flutter, Java, and kotlin. 
           It creates an ecosystem where you as young developers can enjoy sessions and workshops on Android & iOS development which will help you have depth in your knowledge of additional development.
@@ -71,7 +71,7 @@ const Idroid = () => {
         width: "15%"
       }}
     >
-      Club lead
+      Club Secretaries
     </h1>
     <section className="aboutt">
       <div className="about-image">
@@ -80,21 +80,37 @@ const Idroid = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Abhay.png")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Tarun-bg.png")} />
             <div className="desc fw-bold">
-            Abhay Kulshrestha
+            Tarun
               <br />
-              iDroid-Lead
+              General Secretary
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Abhay Kulshrestha</h2>
-        <h5 style={{ fontWeight: "bold" }}>iDroid-Lead</h5>
-        <p>
-        The way to get started is to quit talking and begin doing.
-        </p>
+        <h2 style={{ fontWeight: 550 }}>Tarun</h2>
+        <h5 style={{ fontWeight: "bold" }}>General Secretary</h5>
+      </div>
+      <div className="about-image">
+        <div className="popout">
+          <div className="circle">
+            <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
+          </div>
+          <div className="person">
+            <img alt="Deepanshu Johar" src={require("./Images/Abhinav-bg.png")} />
+            <div className="desc fw-bold">
+            Abhinav 
+              <br />
+              Joint Secretary
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="aboutme" style={{ marginTop: "4vh" }}>
+        <h2 style={{ fontWeight: 550 }}>Abhinav</h2>
+        <h5 style={{ fontWeight: "bold" }}>Joint Secretary</h5>
       </div>
     </section>
   </div>

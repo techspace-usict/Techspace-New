@@ -49,7 +49,7 @@ const Home = () => {
               </div>
             </div>
             <div className="col-md-6 mb-4 myconatiner">
-              <div className="p-5 mx-lg-5">
+              <div className="py-5 mx-lg-5">
                 <img className="rounded shadow fit-cover heroImage" src={require("./Images/main_page.jpg")} alt='' />
               </div>
 
@@ -62,7 +62,7 @@ const Home = () => {
           <p className="mb-4" style={{ fontSize: "1.6rem" }}>
             Having{" "}
             <span className="p-1">
-              <strong>7</strong>
+              <strong>6</strong>
             </span>
             &nbsp;societies under our umbrella.
           </p>
@@ -94,13 +94,13 @@ const Home = () => {
               alt=''
             />
           </Link>
-          <Link to="/">
+          {/* <Link to="/">
             <img
               className="m-3 clubImg"
               src={require("./Images/gdsc.png")}
               alt=''
             />
-          </Link>
+          </Link> */}
           <Link to="/">
             <img
               className="m-3 clubImg"
@@ -224,7 +224,7 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col mb-4">
+                {/* <div className="col mb-4">
                   <div
                     className="card card-2"
                     style={{ backgroundColor: "rgba(255, 131, 255, 0.207)" }}
@@ -243,7 +243,7 @@ const Home = () => {
                       </Link>
                     </div>
                   </div>
-                </div>
+                </div> */}
                 <div className="col mb-4">
                   <div
                     className="card card-2"
@@ -336,20 +336,20 @@ const Home = () => {
               style={{ width: "100%" }}
             >
               {/* <p className="fw-bold text-success mb-2">Our Leads</p> */}
-              <h2 className="fw-bold">Student Leads</h2>
+              <h2 className="fw-bold my-4">Student Leads</h2>
               {/* <p className="text-muted w-lg-50">No matter the project, our team can handle it.&nbsp;</p> */}
             </div>
             <div className="col mb-3">
               <div className="text-center">
                 <img
                   className="rounded card-2 mb-3 fit-cover"
-                  src={require("./Images/vivek.jpeg")}
+                  src={require("./Images/Jatin.jpg")}
                   width={150}
                   height={150}
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Vivek Bhatia</strong>
+                  <strong>Jatin Singh</strong>
                 </h5>
                 <p className="text-muted mb-2">President</p>
               </div>
@@ -358,13 +358,13 @@ const Home = () => {
               <div className="text-center">
                 <img
                   className="rounded card-2 mb-3 fit-cover"
-                  src={require("./Images/prince.jpeg")}
+                  src={require("./Images/Khushi.jpg")}
                   width={150}
                   height={150}
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Prince Kr. Gupta</strong>
+                  <strong>Khushi</strong>
                 </h5>
                 <p className="text-muted mb-2">Spokesperson</p>
               </div>
@@ -373,13 +373,13 @@ const Home = () => {
               <div className="text-center">
                 <img
                   className="rounded card-2 mb-3 fit-cover"
-                  src={require("./Images/ridhi.jpg")}
+                  src={require("./Images/Louis.jpg")}
                   width={150}
                   height={150}
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Ridhi</strong>
+                  <strong>Louis</strong>
                 </h5>
                 <p className="text-muted mb-2">Convener</p>
               </div>
@@ -388,13 +388,13 @@ const Home = () => {
               <div className="text-center">
                 <img
                   className="rounded card-2 mb-3 fit-cover"
-                  src={require("./Images/kartik.JPG")}
+                  src={require("./Images/Aakash.jpg")}
                   width={150}
                   height={150}
                   alt=''
                 />
                 <h5 className="fw-bold mb-0">
-                  <strong>Kartik</strong>
+                  <strong>Aakash Shrivastava</strong>
                 </h5>
                 <p className="text-muted mb-2">Treasurer</p>
               </div>

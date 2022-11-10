@@ -7,7 +7,7 @@ const CodeSchool = () => {
       <div className="content2">
         <div className="para">
           <h1 style={{ fontWeight: "bold" }}>Codeschool</h1>
-          <h3 className='article'>
+          <h3 className='article my-4'>
           Are you passionate about competitive programming? Code school is the right place for you. Code School is a platform that encourages enthusiastic 
           coders and provides them with the opportunity to showcase their problem-solving skills. 
           Not just this it even educates the students on different topics on Data Structures and Algorithms by conducting sessions ranging from basic to advanced levels.
@@ -68,7 +68,7 @@ const CodeSchool = () => {
         width: "15%"
       }}
     >
-      Club lead
+      Club Secretaries
     </h1>
     <section className="aboutt">
       <div className="about-image">
@@ -77,22 +77,39 @@ const CodeSchool = () => {
             <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
           </div>
           <div className="person">
-            <img alt="Deepanshu Johar" src={require("./Images/Deepanshu.png")} />
+            <img alt="Deepanshu Johar" src={require("./Images/Sonu-bg.png")} />
             <div className="desc fw-bold">
-              Deppanshu Johar
+              Sonu Singla
               <br />
-              Codeschool-Lead
+              General Secretary
             </div>
           </div>
         </div>
       </div>
       <div className="aboutme" style={{ marginTop: "4vh" }}>
-        <h2 style={{ fontWeight: 550 }}>Deepanshu Johar</h2>
-        <h5 style={{ fontWeight: "bold" }}>Codeschool-Lead</h5>
-        <p>
-        Alfred Pennyworth : Why do we fall bruce? So that we can learn to pick ourselves up.
+        <h2 style={{ fontWeight: 550 }}>Sonu Singla</h2>
+        <h5 style={{ fontWeight: "bold" }}>General Secretary</h5>
         
-        </p>
+      </div>
+      <div className="about-image">
+        <div className="popout">
+          <div className="circle">
+            <img aria-hidden="true" src={require("./Images/back.png")} alt="Nature" />
+          </div>
+          <div className="person">
+            <img alt="Deepanshu Johar"   src={require("./Images/Manik-bg.png")} />
+            <div className="desc fw-bold">
+              Manik Goyal
+              <br />
+              Joint Secretary
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="aboutme" style={{ marginTop: "4vh" }}>
+        <h2 style={{ fontWeight: 550 }}>Manik Goyal</h2>
+        <h5 style={{ fontWeight: "bold" }}>Joint Secretary</h5>
+        
       </div>
     </section>
   </div>
