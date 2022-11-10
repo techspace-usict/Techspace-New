@@ -135,7 +135,10 @@ const About = (props) => {
       {/* Gallery section */}
 
     {/* <div className = "d-flex justify-content-center w-50"> */}
-    <Carousel  variant="dark" className="mt-5 carouselFrame" fade>
+
+
+    
+    {/* <Carousel  variant="dark" className="mt-5 carouselFrame" fade>
       <Carousel.Item >
         <img
           className="w-100 carousel"
@@ -205,7 +208,7 @@ const About = (props) => {
         />
         
       </Carousel.Item>
-    </Carousel>
+    </Carousel> */}
     {/* </div> */}
 
 
